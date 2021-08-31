@@ -36,42 +36,59 @@
             <div class="coffee_cup"></div>
         </div>
     </div>
-   
+    <!--Side panel-->
+    <nav class="nav-wrap bg-white">
+        <!-- opener inside of collapsible menu -->
+        <div class="nav-trigger nav-trigger-close">
+            <a href="#">Close Panel <i class="icon-long-arrow-right"></i> </a>
+            <div class="divider-border"><span class="sr-only"></span></div>
+        </div>
+
+        <div class="col-sm-6 pb-3">
+            <a href="#" class="btn btn-black btn-small-font btn-solid-facebook has-radius-small"><span
+                    class="icon-facebook"><span class="sr-only">&nbsp;</span></span> LOGIN WITH FACEBOOK</a>
+        </div>
+        <div class="col-sm-6">
+            <a href="#" class="btn btn-black btn-small-font btn-solid-google has-radius-small"><span
+                    class="icon-google-plus"><span class="sr-only">&nbsp;</span></span> LOGIN WITH GOOGLE</a>
+        </div>
+        <div class="divider-border"><span class="sr-only"></span></div>
+        <ul class="side-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="blog-single.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <nav class="header-links">
+            <ul>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Register</a></li>
+            </ul>
+        </nav>
+        <div class="divider-border"><span class="sr-only"></span></div>
+        <div class="p-3">
+            <ul class="social-network square-icon shadowed-icon">
+                <li><a href="#"><span class="icon-facebook"></span></a></li>
+                <li><a href="#"><span class="icon-twitter"></span></a></li>
+                <li><a href="#"><span class="icon-google-plus"></span></a></li>
+                <li><a href="#"><span class="icon-pinterest"></span></a></li>
+                <li><a href="#"><span class="icon-dribbble"></span></a></li>
+            </ul>
+        </div>
+    </nav>
     <!-- main wrapper -->
     <div id="wrapper" class="no-overflow-x">
         <div class="page-wrapper">
-            
             <!-- header of the page -->
-            <header class="fixed-top main-header header-white no-top-header" id="waituk-main-header">
+            <header class="fixed-top main-header header-white transparent with-side-panel-ico" id="waituk-main-header">
                 <div id="nav-section">
-                    <div class="mega-menus top-header" id="popup">
-                        <nav class="p-static bg-gray-dark hidden-md-down">
-                            <div class="container" style="display: flex;
-                            justify-content: center;">
-                                <div class="row">
-                                    <div>
-                                        <ul class="i-list i-list-i-block i-list-i-block-sm i-list-i-block-no-hover pad-0-sm margin-bottom-0 float-right">
-                                            <li>
-                                                <div class="dropdown mini-nav mini-nav-no-bg-hover">
-                                                    <a>HashRoot Talents is now Stakefield<span class="close" style="padding-top: 0.35rem;
-                                                        padding-left: 0.25rem;">&times;</span></a>
-                                                </div>
-                                              
-                                            </li>
-                                         
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </nav>
-                    </div>
                     <div class="bottom-header container-fluid mega-menus" id="mega-menus">
-                        <nav class="navbar navbar-toggleable-md no-border-radius no-margin mega-menu-multiple navbar-hover"
+                        <nav class="navbar navbar-toggleable-md no-border-radius no-margin mega-menu-multiple"
                             id="navbar-inner-container">
                             <form action="mega-menu-5.html" id="top-search" class="no-margin top-search">
                                 <div class="form-group no-margin">
                                     <input class="form-control no-border" id="search_term" name="search_term"
-                                        placeholder="Type &amp; Press Enter" type="text">
+                                        placeholder="Type & Press Enter" type="text">
                                 </div>
                             </form>
                             <button type="button" class="navbar-toggler navbar-toggler-left" data-toggle="collapse"
@@ -79,223 +96,293 @@
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                             <a class="navbar-brand mr-auto m-sm-auto" href="index.html"> <img src="icons/LOGO.png"
-                                    alt="roxine" style="width: 86px;object-fit: contain;">
-                            </a>
+                                    alt="roxine" style="width: 86px;object-fit: contain;"> <img src="icons/LOGO.png" alt="roxine" style="width: 86px;object-fit: contain;"> </a>
                             <div class="collapse navbar-collapse flex-row-reverse" id="mega-menu">
                                 <ul class="nav navbar-nav">
                                     <li>
-                                        <a href="index.html">Home</a>
-                                    </li>
-                               
-                                    <li>
-                                        <a href="aboutus.html">About Stakefield</a>
+                                        <a href="index.html"> Home </a>
                                     </li>
                                     <li>
-                                        <a href="index.html">CEO Message</a>
+                                        <a href="index.html"> About Company </a>
                                     </li>
                                     <li>
-                                        <a href="index.html">Leadership</a>
+                                        <a href="index.html"> Other Services </a>
                                     </li>
                                     <li>
-                                        <a href="index.html">Locations</a>
+                                        <a href="index.html"> Case Studies </a>
+                                    </li>
+                                    <li class="dropdown right-dropdown" data-animation="fadeIn">
+                                        <a class="dropdown-toggle" data-toggle="dropdown" href="index.html"
+                                            data-title="Home"> About Company  </a>
+                                        <ul class="dropdown-menu no-border-radius">
+                                            <li><a href="blog-one-col.html">About Stakefield</a></li>
+                                            <li><a href="blog-two-col.html"> CEO Message </a></li>
+                                            <li><a href="blog-three-col.html"> Leadership</a></li>
+                                            <li><a href="blog-left-sidebar.html"> Locations </a></li>
+                                            <li><a href="blog-right-sidebar.html"> Capabilities </a></li>
+                                            <li><a href="blog-masonary.html"> Corporate Social Responsibility </a></li>
+                                            <li><a href="blog-full-width.html"> Sustainability Strategy</a></li>
+                                        </ul>
                                     </li>
                                     <li>
-                                        <a href="index.html">Capabilities</a>
+                                        <a href="contact.html"> Contact </a>
                                     </li>
-                                    <li>
-                                        <a href="index.html">Corporate Social Responsability</a>
-                                    </li>
-                                    <li>
-                                        <a href="contact.html">Sustainability Strategy </a>
-                                    </li>
-                                    <li>
-                                        <a href="index.html">Contact US</a>
-                                    </li>
+                                 
                                 </ul>
                             </div>
-                            <!-- <div class="navbar-pos-search">
-                                <a href="#" class="x-search x-search-trigger navbar-link"><i
-                                        class="custom-icon-search"></i></a>
-                                <a href="#" class="x-search icon-close-round navbar-link"><i
-                                        class="icon-line-cross"></i></a>
-                            </div>  -->
+                      
                         </nav>
                     </div>
                 </div>
             </header>
             <!--/header of the page -->
             <main>
-                <section class="mt-5"
-                    style="background-image: url('icons/Image1.jpeg');background-position: center;background-size: cover;">
-                    <div class="container py-5">
-                        <div class="row">
-                            <div class="col-sm-6 col-md-6 my-auto">
-                                <img src="icons/leftimg-header.png" alt="">
-                            </div>
-                            <div class="col-sm-6 col-md-6 pl-5 my-auto">
-                                <h3>Helping you Find The Perfect Talent</h3>
-                                <p>Our Consultants are equipped with the requisite
-                                    expertise and tools to help you find 'The Right Talent'
-                                    for your organization. We can cover your custom
-                                    needs with a solid solution mechanism, irrespective
-                                    of the scale at which you'd like us to operate.</p>
-                                <button class="btn btn-primary has-radius-small btn-sm">Get In Touch</button>
-                            </div>
+                <!-- visual/banner of the page -->
+                <div class="banner banner-home">
+                    <!-- revolution slider starts -->
+                    <div id="rev_slider_279_1_wrapper" class="rev_slider_wrapper fullscreen-container"
+                        data-alias="restaurant-header"
+                        style="margin:0px auto;background-color:#fff;padding:0px;margin-top:0px;margin-bottom:0px;">
+                        <div id="rev_slider_70_1" class="rev_slider fullscreenabanner" style="display:none;"
+                            data-version="5.1.4">
+                            <ul>
+                                <li class="slider-color-schema-dark" data-index="rs-2" data-transition="fade"
+                                    data-slotamount="7" data-easein="default" data-easeout="default"
+                                    data-masterspeed="1000" data-rotate="0" data-saveperformance="off"
+                                    data-title="Slide" data-description="">
+                                    <!-- main image for revolution slider -->
+                                    <img src="img/big-14.jpg" alt="image description" data-bgposition="center center"
+                                        data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone"
+                                        data-scalestart="100" data-scaleend="120" data-rotatestart="0"
+                                        data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0"
+                                        data-bgparallax="10" class="rev-slidebg" data-bgfit="cover" data-no-retina>
+                                    <div class="tp-caption tp-shape tp-shapewrapper" id="slide-1699-layer-10"
+                                        data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
+                                        data-y="['middle','middle','middle','middle']" data-voffset="['0','0','0','0']"
+                                        data-width="full" data-height="full" data-whitespace="nowrap" data-type="shape"
+                                        data-basealign="slide" data-responsive_offset="on" data-responsive="off"
+                                        data-frames='[{"from":"y:0;sX:1;sY:1;opacity:0;","speed":2500,"to":"o:1;","delay":500,"ease":"Power4.easeOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
+                                        data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]"
+                                        data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
+                                        data-paddingleft="[0,0,0,0]" style="background-color:rgba(0, 0, 0, 0.57);">
+                                    </div>
+                                    <!-- <div class="slider-sub-title text-white tp-caption tp-resizeme rs-parallaxlevel-0" data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" data-y="['top','top','middle','middle']" data-voffset="['145','100','10','20']" data-width="['1200','960','720','540']" data-textalign="left" data-fontsize="['30','28','24','20']" data-lineheight="['72','62','50','50']" data-letterspacing="5" data-height="none" data-whitespace="normal" data-transform_idle="o:1;" data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:0px;" data-mask_out="x:inherit;y:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" data-paddingright="[25,25,25,25]" data-paddingleft="[25,25,25,25]">
+                                        GRAPHICS. WEB. DIGITAL.
+                                    </div> -->
+                                    <div class="slider-main-title text-white tp-caption tp-resizeme rs-parallaxlevel-1"
+                                        data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']"
+                                        data-y="['top','top','middle','middle']" data-voffset="['250','150','50','50']"
+                                        data-width="['1200','960','720','540']" data-textalign="left"
+                                        data-fontweight="900" data-letterspacing="['25','10','5','0']"
+                                        data-lineheight="['184','100','72','60']" data-height="none"
+                                        data-whitespace="normal" data-transform_idle="o:1;"
+                                        data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
+                                        data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                                        data-mask_in="x:0px;y:0px;" data-mask_out="x:inherit;y:inherit;"
+                                        data-start="1000" data-splitin="none" data-splitout="none"
+                                        data-responsive_offset="on" data-paddingright="[25,25,25,25]"
+                                        data-paddingleft="[25,25,25,25]" style="font-size: 40px;">
+                                        Find The Perfect Talent
+                                    </div>
+                                    <div class="slider-text text-white tp-caption tp-resizeme rs-parallaxlevel-2"
+                                        data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']"
+                                        data-y="['top','top','middle','middle']"
+                                        data-voffset="['450','230','110','110']" data-width="['600','555','555','480']"
+                                        data-textalign="left" data-fontsize="['16','14','14','14']"
+                                        data-lineheight="['30','30','22','22']" data-fontweight="400" data-height="none"
+                                        data-whitespace="normal" data-transform_idle="o:1;"
+                                        data-transform_in="z:0;rX:0deg;rY:0;rZ:0;sX:1.5;sY:1.5;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
+                                        data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                                        data-mask_in="x:0px;y:0px;" data-mask_out="x:inherit;y:inherit;"
+                                        data-start="1000" data-splitin="none" data-splitout="none"
+                                        data-responsive_offset="on" data-paddingright="[25,25,25,25]"
+                                        data-paddingleft="[25,25,25,25]">
+                                        Our Consultants are equipped with the requisite
+                                        expertise and tools to help you find 'The Right Talent'
+                                        for your organization. We can cover your custom
+                                        needs with a solid solution mechanism, irrespective
+                                        of the scale at which you'd like us to operate.
+                                    </div>
+                                    <div class="tp-caption rev-btn  rs-parallaxlevel-10" id="slide-163-layer-1"
+                                        data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']"
+                                        data-y="['middle','middle','middle','middle']"
+                                        data-voffset="['320','60','240','220']" data-width="none" data-height="none"
+                                        data-whitespace="nowrap" data-transform_idle="o:1;"
+                                        data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power3.easeOut;"
+                                        data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                                        data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                                        data-mask_out="x:inherit;y:inherit;" data-start="1250" data-splitin="none"
+                                        data-splitout="none"
+                                        data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-164","delay":""}]'
+                                        data-responsive_offset="on" data-paddingtop="[0,0,0,0]"
+                                        data-paddingright="[25,25,25,25]" data-paddingbottom="[0,0,0,0]"
+                                        data-paddingleft="[25,25,25,25]">
+                                        <a class="btn btn-primary has-radius-small" href="#">GET IN TOUCH</a>
+                                    </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
-                </section>
-
+                </div>
+                <!--/visual/banner of the page -->
                 <!-- main content wrapper -->
                 <div class="content-wrapper">
-                    <section class="content-block" style="padding-bottom: 0px;">
+                    <section class="content-block">
                         <div class="container">
-                            <div class="demo-wrapper">
-                                <h3 class="text-center element-heading">Our Staffing Service</h3>
-                                <div class="row multiple-row">
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="col-wrap">
-                                            <div class="ico-box bg-gray-light">
-                                                <div class="icon">
-                                                    <img src="icons/Permanenet staffing and placement-01.png" alt=""
-                                                        style="width: 177px;">
-                                                </div>
-                                                <h4 class="content-title">Permanent Staffing & Placement
-                                                </h4>
-                                                <div class="des">
-                                                    <p style="text-align: justify;">Hiring a permanent resource can be a
-                                                        torrid, time-consuming
-                                                        process, from structuring an enticing
-                                                        job description, putting the word out, sourcing resumes,
-                                                        screening a wide range of profiles, all the
-                                                        way to interviewing candidates, gauging implementation ability,
-                                                        conducting personality tests, and
-                                                        finally, selection, while staying in line with your
-                                                        organizational standards and benchmarks. This is
-                                                        where you could bring us to the equation. We help you find the
-                                                        right talent for your organization in
-                                                        the most easiest and cost-effective way</p>
-                                                </div>
+                            <div class="row multiple-row v-align-row">
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="col-wrap">
+                                        <div class="block-heading">
+                                            <h3 class="block-top-heading">Our Staffing Service</h3>
+                                            <h2 class="block-main-heading">EXPERTS</h2>
+                                            <!-- <span class="block-sub-heading">We build digital solutions.</span> -->
+                                            <div class="divider"><img src="img/divider.png" alt="images description">
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="col-wrap">
-                                            <div class="ico-box bg-gray-light">
-                                                <div class="icon">
-                                                    <img src="icons/Executive search and selection-01.png" alt=""
-                                                        style="width: 177px;">
-                                                </div>
-                                                <h4 class="content-title">Executive Search & Selection
-                                                </h4>
-                                                <div class="des">
-                                                    <p style="text-align: justify;">Hiring a C-level executive, be it a
-                                                        Senior Manager, Director, VP, or CEO for your organization can
-                                                        be excruciatingly absorbing. As these executives are responsible
-                                                        for defining and implementing the
-                                                        strategic plan set forth, a gap at these critical positions can
-                                                        leave negative implications within the
-                                                        department as well as the company. This is where our specialized
-                                                        consultants can help you out. Our
-                                                        consultants having a track record of proven results and will
-                                                        ensure you have access to the right
-                                                        executive-level professionals you are looking for.</p>
-                                                </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="col-wrap">
+                                        <div class="ico-box bg-gray-light">
+                                            <div class="icon">
+                                                <img src="icons/Permanenet staffing and placement-01.png" alt=""
+                                                    style="width: 177px;">
+                                            </div>
+                                            <h4 class="content-title">Permanent Staffing & Placement
+                                            </h4>
+                                            <div class="des">
+                                                <p style="text-align: justify;">Hiring a permanent resource can be a
+                                                    torrid, time-consuming
+                                                    process, from structuring an enticing
+                                                    job description, putting the word out, sourcing resumes,
+                                                    screening a wide range of profiles, all the
+                                                    way to interviewing candidates, gauging implementation ability,
+                                                    conducting personality tests, and
+                                                    finally, selection, while staying in line with your
+                                                    organizational standards and benchmarks. This is
+                                                    where you could bring us to the equation. We help you find the
+                                                    right talent for your organization in
+                                                    the most easiest and cost-effective way</p>
                                             </div>
                                         </div>
                                     </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="col-wrap">
+                                        <div class="ico-box bg-gray-light" style="height: 37.8rem;">
+                                            <div class="icon">
+                                                <img src="icons/Executive search and selection-01.png" alt=""
+                                                    style="width: 177px;">
+                                            </div>
+                                            <h4 class="content-title">Executive Search & Selection
+                                            </h4>
+                                            <div class="des">
+                                                <p style="text-align: justify;">Hiring a C-level executive, be it a
+                                                    Senior Manager, Director, VP, or CEO for your organization can
+                                                    be excruciatingly absorbing. As these executives are responsible
+                                                    for defining and implementing the
+                                                    strategic plan set forth, a gap at these critical positions can
+                                                    leave negative implications within the
+                                                    department as well as the company. This is where our specialized
+                                                    consultants can help you out. Our
+                                                    consultants having a track record of proven results and will
+                                                    ensure you have access to the right
+                                                    executive-level professionals you are looking for.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="col-wrap">
-                                            <div class="ico-box bg-gray-light">
-                                                <div class="icon">
-                                                    <img src="icons/Background and identity verification services-01.png"
-                                                        alt="" style="width: 177px;">
-                                                </div>
-                                                <h4 class="content-title">Background & Identity Verification
-                                                    Service
-                                                </h4>
-                                                <div class="des">
-                                                    <p style="text-align: justify;">As companies are hiring in volumes,
-                                                        a proper mechanism needs to be in place for Background
-                                                        Verification of candidates about their previous roles.
-                                                        Stakefield has set templates that are sent out to
-                                                        previous employers of candidates to gather information regarding
-                                                        past employment. We also check
-                                                        for legal as well as government ID verification to ensure the
-                                                        candidates fit well within the client's
-                                                        organization. These processes ensure that candidates are
-                                                        thoroughly vetted before they work for any
-                                                        of our clients.</p>
-                                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="col-wrap">
+                                        <div class="ico-box bg-gray-light">
+                                            <div class="icon">
+                                                <img src="icons/Background and identity verification services-01.png"
+                                                    alt="" style="width: 177px;">
+                                            </div>
+                                            <h4 class="content-title">Background & Identity Verification
+                                                Service
+                                            </h4>
+                                            <div class="des">
+                                                <p style="text-align: justify;">As companies are hiring in volumes,
+                                                    a proper mechanism needs to be in place for Background
+                                                    Verification of candidates about their previous roles.
+                                                    Stakefield has set templates that are sent out to
+                                                    previous employers of candidates to gather information regarding
+                                                    past employment. We also check
+                                                    for legal as well as government ID verification to ensure the
+                                                    candidates fit well within the client's
+                                                    organization. These processes ensure that candidates are
+                                                    thoroughly vetted before they work for any
+                                                    of our clients.</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="col-wrap">
-                                            <div class="ico-box bg-gray-light" style="height: 604px;">
-                                                <div class="icon">
-                                                    <img src="icons/Assessment solutions-01.png" alt=""
-                                                        style="width: 177px;">
-                                                </div>
-                                                <h4 class="content-title">Assessment Solutions
-                                                </h4>
-                                                <div class="des">
-                                                    <p style="text-align: justify;">Managing a workforce during
-                                                        organizational restructuring can be hard sometimes. Deciding
-                                                        which
-                                                        employees to retain and which to let go of, you must
-                                                        first get your strategies right. You need to be extremely
-                                                        cautious as well before making any decision
-                                                        of workforce hiring or firing. Our specialized consultant can
-                                                        help you in identifying the employees
-                                                        who have the right skills and personalities for the new job
-                                                        roles they are about to be entitled to.</p>
-                                                </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="col-wrap">
+                                        <div class="ico-box bg-gray-light" style="height: 33rem;">
+                                            <div class="icon">
+                                                <img src="icons/Assessment solutions-01.png" alt=""
+                                                    style="width: 177px;">
+                                            </div>
+                                            <h4 class="content-title">Assessment Solutions
+                                            </h4>
+                                            <div class="des">
+                                                <p style="text-align: justify;">Managing a workforce during
+                                                    organizational restructuring can be hard sometimes. Deciding
+                                                    which
+                                                    employees to retain and which to let go of, you must
+                                                    first get your strategies right. You need to be extremely
+                                                    cautious as well before making any decision
+                                                    of workforce hiring or firing. Our specialized consultant can
+                                                    help you in identifying the employees
+                                                    who have the right skills and personalities for the new job
+                                                    roles they are about to be entitled to.</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="col-wrap">
-                                            <div class="ico-box bg-gray-light" style="height: 528px;">
-                                                <div class="icon">
-                                                    <img src="icons/Managed services-01.png" alt=""
-                                                        style="width: 177px;">
-                                                </div>
-                                                <h4 class="content-title">Managed Services
-                                                </h4>
-                                                <div class="des">
-                                                    <p style="text-align: justify;height: 302px;">Identifying and hiring
-                                                        a contingent
-                                                        workforce can be challenging at times. With our managed
-                                                        service program you will get complete visibility over your
-                                                        non-permanent workforce, i.e, from freelancers to consultants,
-                                                        we help you in hiring the best
-                                                        temporary talents in the field of sales, recruitment, and IT for
-                                                        your business.</p>
-                                                </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="col-wrap">
+                                        <div class="ico-box bg-gray-light" style="height: 528px;">
+                                            <div class="icon">
+                                                <img src="icons/Managed services-01.png" alt="" style="width: 177px;">
+                                            </div>
+                                            <h4 class="content-title">Managed Services
+                                            </h4>
+                                            <div class="des">
+                                                <p style="text-align: justify;height: 302px;">Identifying and hiring
+                                                    a contingent
+                                                    workforce can be challenging at times. With our managed
+                                                    service program you will get complete visibility over your
+                                                    non-permanent workforce, i.e, from freelancers to consultants,
+                                                    we help you in hiring the best
+                                                    temporary talents in the field of sales, recruitment, and IT for
+                                                    your business.</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-lg-6 col-md-6">
-                                        <div class="col-wrap">
-                                            <div class="ico-box bg-gray-light">
-                                                <div class="icon">
-                                                    <img src="icons/Contract based staffing-01.png" alt=""
-                                                        style="width: 177px;">
-                                                </div>
-                                                <h4 class="content-title">Contract-based Staffing
-                                                </h4>
-                                                <div class="des">
-                                                    <p style="text-align: justify;height: 225px;">Simply put,
-                                                        contractual staffing
-                                                        saves you time and money. It gives you added flexibility and
-                                                        raises
-                                                        productivity. We ensure that the right people are deployed in
-                                                        the right positions at short notice. In
-                                                        short, we help you with enhanced efficiency to close out skills
-                                                        gaps that could derail your overall
-                                                        progress in the times ahead.</p>
-                                                </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="col-wrap">
+                                        <div class="ico-box bg-gray-light">
+                                            <div class="icon">
+                                                <img src="icons/Contract based staffing-01.png" alt=""
+                                                    style="width: 177px;">
+                                            </div>
+                                            <h4 class="content-title">Contract-based Staffing
+                                            </h4>
+                                            <div class="des">
+                                                <p style="text-align: justify;height: 225px;">Simply put,
+                                                    contractual staffing
+                                                    saves you time and money. It gives you added flexibility and
+                                                    raises
+                                                    productivity. We ensure that the right people are deployed in
+                                                    the right positions at short notice. In
+                                                    short, we help you with enhanced efficiency to close out skills
+                                                    gaps that could derail your overall
+                                                    progress in the times ahead.</p>
                                             </div>
                                         </div>
                                     </div>
@@ -303,585 +390,655 @@
                             </div>
                         </div>
                     </section>
+                    <section class="content-block quotation-block black-overlay-6 parallax"
+                        data-stellar-background-ratio="0.55">
+                        <div class="container">
+                            <div class="inner-wrapper">
+                                <h3 class="block-top-heading text-white">SOURCING THE BEST TALENTS FOR YOU</h3>
+                                <h2 class="text-white">Helping you find the right professionals for your organization!
+                                </h2>
+                                <!-- <div class="btn-container">
+                                    <a href="#" class="btn btn-primary has-radius-small">GET QUOTATION</a>
+                                </div> -->
+                            </div>
+                        </div>
+                    </section>
+                    <!-- <section class="content-block portfolio-block" id="container">
+                        <div class="bottom-space text-center text-uppercase">
+                            <h2>The Work</h2>
+                        </div>
+                        <ul class="filter-nav text-center button-group filter-button-group">
+                            <li>
+                                <button data-filter="*">ALL</button>
+                            </li>
+                            <li>
+                                <button data-filter=".ui">UI/UX DESIGN</button>
+                            </li>
+                            <li>
+                                <button data-filter=".programming">PROGRAMMING</button>
+                            </li>
+                            <li>
+                                <button data-filter=".photography">PHOTOGRAPHY</button>
+                            </li>
+                            <li>
+                                <button data-filter=".ecommerce">ECOMMERCE</button>
+                            </li>
+                        </ul>
+                        <div class="row grid">
+                            <div class="gallery-item col-lg-4 col-md-6 ui photography">
+                                <figure class="picture-item img-block shine-effect image-zoom port-v2">
+                                    <img src="img/img-37.jpg" alt="images description">
+                                    <figcaption>
+                                        <div class="link-box">
+                                            <a href="#">
+                                                <span class="icon-heart"><span class="sr-only">&amp;</span></span>
+                                            </a>
+                                            <a href="#">
+                                                <span class="icon-link"><span class="sr-only">&amp;</span></span>
+                                            </a>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="gallery-item col-lg-4 col-md-6 photography programming">
+                                <figure class="picture-item img-block shine-effect image-zoom port-v2">
+                                    <img src="img/img-32.jpg" alt="images description">
+                                    <figcaption>
+                                        <div class="link-box">
+                                            <a href="#">
+                                                <span class="icon-heart"><span class="sr-only">&amp;</span></span>
+                                            </a>
+                                            <a href="#">
+                                                <span class="icon-link"><span class="sr-only">&amp;</span></span>
+                                            </a>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="gallery-item col-lg-4 col-md-6 ui photography">
+                                <figure class="picture-item img-block shine-effect image-zoom port-v2">
+                                    <img src="img/img-33.jpg" alt="images description">
+                                    <figcaption>
+                                        <div class="link-box">
+                                            <a href="#">
+                                                <span class="icon-heart"><span class="sr-only">&amp;</span></span>
+                                            </a>
+                                            <a href="#">
+                                                <span class="icon-link"><span class="sr-only">&amp;</span></span>
+                                            </a>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="gallery-item col-lg-4 col-md-6 ecommerce programming">
+                                <figure class="picture-item img-block shine-effect image-zoom port-v2">
+                                    <img src="img/img-34.jpg" alt="images description">
+                                    <figcaption>
+                                        <div class="link-box">
+                                            <a href="#">
+                                                <span class="icon-heart"><span class="sr-only">&amp;</span></span>
+                                            </a>
+                                            <a href="#">
+                                                <span class="icon-link"><span class="sr-only">&amp;</span></span>
+                                            </a>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="gallery-item col-lg-4 col-md-6 programming ecommerce">
+                                <figure class="picture-item img-block shine-effect image-zoom port-v2">
+                                    <img src="img/img-35.jpg" alt="images description">
+                                    <figcaption>
+                                        <div class="link-box">
+                                            <a href="#">
+                                                <span class="icon-heart"><span class="sr-only">&amp;</span></span>
+                                            </a>
+                                            <a href="#">
+                                                <span class="icon-link"><span class="sr-only">&amp;</span></span>
+                                            </a>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="gallery-item col-lg-4 col-md-6 ecommerce ui">
+                                <figure class="picture-item img-block shine-effect image-zoom port-v2">
+                                    <img src="img/img-36.jpg" alt="images description">
+                                    <figcaption>
+                                        <div class="link-box">
+                                            <a href="#">
+                                                <span class="icon-heart"><span class="sr-only">&amp;</span></span>
+                                            </a>
+                                            <a href="#">
+                                                <span class="icon-link"><span class="sr-only">&amp;</span></span>
+                                            </a>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </section> -->
+                    <section class="content-block pt-5 ">
+
+                        <div class="container data-wow-duration=1s wow fadeInLeft">
+                            <div class="block-heading bottom-space">
+                                <!-- <h3 class="block-top-heading">THE LIFE SIZE</h3> -->
+                                <h2 class="block-main-heading">Case Study 1</h2>
+                                <!-- <span class="block-sub-heading">View multiple content block layouts under features
+                                    section.</span> -->
+                                <!-- <div class="divider"><img src="img/divider.png" alt="images description"></div> -->
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="bottom-space-small-only">
+                                        <p>No one enterprise can be everything to everyone, irrespective of its size or expertise at its disposal.
+                                            It may certainly appear an easy task to hire individuals who would want to be employed at an
+                                            esteemed, globally recognized organization, but that may not quite be the case. Having excelled in
+                                            the IT services industry with significant expertise in IT infrastructure, Software development, and
+                                            DevOps, the client found it increasingly challenging to upkeep staffing levels for its engineering
+                                            workforce.
+                                            </p>
+                                        <!-- <p>Excepteur sint occaecat cupidatat non proident, sunt in culp a qui officia
+                                            deserunt mollit anim id est laborum. Sed ut per spiciatis unde omnis iste
+                                            natus error sit voluptatem accusan tium doloremque laudantium, totam rem
+                                            aperiam, eaque ip </p> -->
+                                        <div class="btn-container top-m-space">
+                                            <a href="#" class="btn btn-black has-radius-small">READ MORE</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="bottom-s-space">
+                                        <p>No one enterprise can be everything to everyone, irrespective of its size or expertise at its disposal.
+                                            It may certainly appear an easy task to hire individuals who would want to be employed at an
+                                            esteemed, globally recognized organization, but that may not quite be the case. Having excelled in
+                                            the IT services industry with significant expertise in IT infrastructure, Software development, and
+                                            DevOps, the client found it increasingly challenging to upkeep staffing levels for its engineering
+                                            workforce.
+                                             </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container data-wow-duration=1s wow fadeInLeft mt-5">
+                            <div class="block-heading bottom-space">
+                                <!-- <h3 class="block-top-heading">THE LIFE SIZE</h3> -->
+                                <h2 class="block-main-heading">Case Study 2</h2>
+                                <!-- <span class="block-sub-heading">View multiple content block layouts under features
+                                    section.</span> -->
+                                <!-- <div class="divider"><img src="img/divider.png" alt="images description"></div> -->
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="bottom-space-small-only">
+                                        <p>The client, a multi-billion dollar telecom provider headquartered in Germany, was in search of a
+                                            partner who could support their efforts to overhaul their IT systems of their data center through
+                                            contract based employment. With little ramp up time, the client required a team of seasoned Build
+                                            Read More
+                                            Engineers (Server & Database) that would be able to complete the project, which was slated to be
+                                            long term assignment from conception to completion. 
+                                            </p>
+                                        <!-- <p>Excepteur sint occaecat cupidatat non proident, sunt in culp a qui officia
+                                            deserunt mollit anim id est laborum. Sed ut per spiciatis unde omnis iste
+                                            natus error sit voluptatem accusan tium doloremque laudantium, totam rem
+                                            aperiam, eaque ip </p> -->
+                                        <div class="btn-container top-m-space">
+                                            <a href="#" class="btn btn-black has-radius-small">READ MORE</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="bottom-s-space">
+                                        <p>Additionally, some professionals hired for
+                                            this project would need to work onsite throughout the duration of the project, which proved to be a
+                                            difficult staffing assignment as most contractors with quality experience typically work remotely on
+                                            a project-to-project basis. With this in mind, the client sought an agency that they could trust, to
+                                            outline a cost-effective recruitment strategy that would set the project up for successful delivery.
+                                            Hence, the Stakefield team was roped in.                                            
+                                             </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container data-wow-duration=1s wow fadeInLeft mt-5">
+                            <div class="block-heading bottom-space">
+                                <!-- <h3 class="block-top-heading">THE LIFE SIZE</h3> -->
+                                <h2 class="block-main-heading">Case Study 3</h2>
+                                <!-- <span class="block-sub-heading">View multiple content block layouts under features
+                                    section.</span> -->
+                                <!-- <div class="divider"><img src="img/divider.png" alt="images description"></div> -->
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="bottom-space-small-only">
+                                        <p>One of the most innovative and funded startups in Silicon Valley struggled to find suitable
+                                            candidates for their team. The startup worked with both local and offshore recruiting partners that
+                                            were unable to come up with a creative solution, and as a result, they needed to bring on a new
+                                            partner who could outline a strategic plan to identify talents as well as a supporting team that would
+                                            enable them to complete their current and upcoming requirements in a timely fashion. 
+                                            </p>
+                                        <!-- <p>Excepteur sint occaecat cupidatat non proident, sunt in culp a qui officia
+                                            deserunt mollit anim id est laborum. Sed ut per spiciatis unde omnis iste
+                                            natus error sit voluptatem accusan tium doloremque laudantium, totam rem
+                                            aperiam, eaque ip </p> -->
+                                        <div class="btn-container top-m-space">
+                                            <a href="#" class="btn btn-black has-radius-small">READ MORE</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="bottom-s-space">
+                                        <p>The
+                                            Stakefield team was consulted by the company to prepare a scope of work, including the job
+                                            descriptions of candidates to develop, design, and implement a highly-secured and robust
+                                            application for their company.                                           
+                                             </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container data-wow-duration=1s wow fadeInLeft mt-5">
+                            <div class="block-heading bottom-space">
+                                <!-- <h3 class="block-top-heading">THE LIFE SIZE</h3> -->
+                                <h2 class="block-main-heading">Case Study 4</h2>
+                                <!-- <span class="block-sub-heading">View multiple content block layouts under features
+                                    section.</span> -->
+                                <!-- <div class="divider"><img src="img/divider.png" alt="images description"></div> -->
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="bottom-space-small-only">
+                                        <p>It is widely acknowledged that a company of Stakefield’s reputation and presence, needs to go
+                                            through a number of permutations and combinations while staging a mass recruitment process for
+                                            our clients. The process includes a lot of management tasks such as looking after the entire
+                                            recruitment needs of the client, arranging walk-in/drives along with providing best sourcing
+                                            strategies to maintain consistency and competitiveness.                                            
+                                            </p>
+                                        <!-- <p>Excepteur sint occaecat cupidatat non proident, sunt in culp a qui officia
+                                            deserunt mollit anim id est laborum. Sed ut per spiciatis unde omnis iste
+                                            natus error sit voluptatem accusan tium doloremque laudantium, totam rem
+                                            aperiam, eaque ip </p> -->
+                                        <div class="btn-container top-m-space">
+                                            <a href="#" class="btn btn-black has-radius-small">READ MORE</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="bottom-s-space">
+                                        <p>The team at Stakefields works in tandem with the Talent Acquisition Managers of our clients in
+                                            order to accurately gauge hiring requirements, perform career profiling, devise strategies and
+                                            selection procedures to maximize the number of successful prospects. We have a dedicated team of
+                                            Read More
+                                            Read More
+                                            recruitment experts to handle your Mass Hiring needs at all times. Our recruitment experts ensure
+                                            that the bulk requirements are taken care of in the most transparent and cost-effective way                                       
+                                             </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- <section id="work-section" class="content-block work-block">
+                        <div class="bg-stretch">
+                            <img src="img/big-01.jpg" alt="">
+                        </div>
+                        <div class="container">
+                            <div class="block-heading bottom-space text-center">
+                                <h3 class="block-top-heading">WORK PLACE</h3>
+                                <h2 class="block-main-heading">THE CULTURE</h2>
+                                <span class="block-sub-heading">Lovely people with nack for design creativity flourish
+                                    here.</span>
+                                <div class="divider"><img src="img/divider.png" alt="images description"></div>
+                            </div>
+                            <div class="description text-center container-md">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                                    irure dolor in reprehenderit in voluptate velit esse.
+                                </p>
+                            </div>
+                        </div>
+                    </section> -->
+                    <section class="content-block">
+                        <div class="container">
+                            <div class="block-heading bottom-space">
+                                <!-- <h3 class="block-top-heading">WHO WE ARE</h3> -->
+                                <h2 class="block-main-heading">Our Sectors of Expertise
+                                </h2>
+                                <!-- <span class="block-sub-heading">We really love what we do & our work on every project
+                                    truly reflects that.</span> -->
+                                <div class="divider"><img src="img/divider.png" alt="images description"></div>
+                            </div>
+                            <div class="team-container">
+                                <div class="owl-carousel group-slide bottom-m-space">
+                                    <div class="slide-item">
+                                        <figure class="team-box caption-fade-up">
+                                            <div class="img-block rev-gray-scale">
+                                                <img src="sector-expertise/it-service.png" alt="images description">
+                                            </div>
+                                            <figcaption class="text-right">
+                                                <strong class="content-title mb-0">IT Service</strong>
+                                                <!-- <span class="sub">UI/UX GURU</span> -->
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="slide-item">
+                                        <figure class="team-box caption-fade-up">
+                                            <div class="img-block rev-gray-scale">
+                                                <img src="sector-expertise/telecom.png" alt="images description">
+                                            </div>
+                                            <figcaption class="text-right">
+                                                <strong class="content-title mb-0">TELECOM</strong>
+                                                <!-- <span class="sub">UI/UX GURU</span> -->
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="slide-item">
+                                        <figure class="team-box caption-fade-up">
+                                            <div class="img-block rev-gray-scale">
+                                                <img src="sector-expertise/healthcare.png" alt="images description">
+                                            </div>
+                                            <figcaption class="text-right">
+                                                <strong class="content-title mb-0">HEALTHCARE</strong>
+                                                <!-- <span class="sub">UI/UX GURU</span> -->
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="slide-item">
+                                        <figure class="team-box caption-fade-up">
+                                            <div class="img-block rev-gray-scale">
+                                                <img src="sector-expertise/manufacturing.png" alt="images description">
+                                            </div>
+                                            <figcaption class="text-right">
+                                                <strong class="content-title mb-0">MANUFACTURING & INDUSTRIAL</strong>
+                                                <!-- <span class="sub">UI/UX GURU</span> -->
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="slide-item">
+                                        <figure class="team-box caption-fade-up">
+                                            <div class="img-block rev-gray-scale">
+                                                <img src="sector-expertise/startups.png" alt="images description">
+                                            </div>
+                                            <figcaption class="text-right">
+                                                <strong class="content-title mb-0">STARTUPS</strong>
+                                                <!-- <span class="sub">UI/UX GURU</span> -->
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="slide-item">
+                                        <figure class="team-box caption-fade-up">
+                                            <div class="img-block rev-gray-scale">
+                                                <img src="sector-expertise/financebanks.png" alt="images description">
+                                            </div>
+                                            <figcaption class="text-right">
+                                                <strong class="content-title mb-0">FINANCIAL INDUSTRIES (BANK)</strong>
+                                                <!-- <span class="sub">UI/UX GURU</span> -->
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div class="slide-item">
+                                        <figure class="team-box caption-fade-up">
+                                            <div class="img-block rev-gray-scale">
+                                                <img src="sector-expertise/financebanks.png" alt="images description">
+                                            </div>
+                                            <figcaption class="text-right">
+                                                <strong class="content-title mb-0">FINANCIAL INDUSTRIES (BANK)</strong>
+                                                <!-- <span class="sub">UI/UX GURU</span> -->
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                </div>
+                                <p> Martin loves gossiping code on his iPhone. Consectetur adipisicing elit, sed do
+                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                                    fugiat nulla pariatur. </p>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- <section class="content-block count-block text-center p-0 parallax"
+                        data-stellar-background-ratio="0.55">
+                        <div class="container-fluid">
+                            <div class="row no-gutters">
+                                <div class="col-sm-6 col-lg-3">
+                                    <div class="col-wrap">
+                                        <div class="icon">
+                                            <span class="custom-icon-projects"></span>
+                                        </div>
+                                        <h3 class="number">505</h3>
+                                        <div class="text text-uppercase">TOTAL PROJECTS</div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-3">
+                                    <div class="col-wrap">
+                                        <div class="icon">
+                                            <span class="custom-icon-smile"></span>
+                                        </div>
+                                        <h3 class="number">220</h3>
+                                        <div class="text text-uppercase">SATISFIED CLIENTS</div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-3">
+                                    <div class="col-wrap">
+                                        <div class="icon">
+                                            <span class="custom-icon-award"></span>
+                                        </div>
+                                        <h3 class="number">720</h3>
+                                        <div class="text text-uppercase">AWARDS WON</div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-3">
+                                    <div class="col-wrap">
+                                        <div class="icon">
+                                            <span class="custom-icon-celebrate"></span>
+                                        </div>
+                                        <h3 class="number">707</h3>
+                                        <div class="text text-uppercase">MILESTONES MET</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="content-block bg-gray-light">
+                        <div class="container">
+                            <div class="block-heading bottom-space text-center">
+                                <h3 class="block-top-heading">HEAR FROM</h3>
+                                <h2 class="block-main-heading">TESTIMONIALS</h2>
+                                <span class="block-sub-heading">We always listen to our clients.</span>
+                                <div class="divider"><img src="img/divider.png" alt="images description"></div>
+                            </div>
+                            <div class="testimonial-container text-center">
+                                <div class="owl-carousel testimonial-slide" id="waituk-owl-slide-3">
+                                    <div class="slide-item">
+                                        <div class="team-wrap">
+                                            <div class="img-block">
+                                                <img src="img/people-01.jpg" alt="images description">
+                                            </div>
+                                            <div class="text-wrap">
+                                                <h2>Natalie Fullick</h2>
+                                                <span class="designation bottom-m-space">CEO - ENVATO INC.</span>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slide-item">
+                                        <div class="team-wrap">
+                                            <div class="img-block">
+                                                <img src="img/people-02.jpg" alt="images description">
+                                            </div>
+                                            <div class="text-wrap">
+                                                <h2>Jason Doe</h2>
+                                                <span class="designation bottom-m-space">CEO - ENVATO INC.</span>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slide-item">
+                                        <div class="team-wrap">
+                                            <div class="img-block">
+                                                <img src="img/people-03.jpg" alt="images description">
+                                            </div>
+                                            <div class="text-wrap">
+                                                <h2>Jake Grahm</h2>
+                                                <span class="designation bottom-m-space">CEO - ENVATO INC.</span>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slide-item">
+                                        <div class="team-wrap">
+                                            <div class="img-block">
+                                                <img src="img/people-02.jpg" alt="images description">
+                                            </div>
+                                            <div class="text-wrap">
+                                                <h2>Natalie Fullick</h2>
+                                                <span class="designation bottom-m-space">CEO - ENVATO INC.</span>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slide-item">
+                                        <div class="team-wrap">
+                                            <div class="img-block">
+                                                <img src="img/people-01.jpg" alt="images description">
+                                            </div>
+                                            <div class="text-wrap">
+                                                <h2>Natalie Fullick</h2>
+                                                <span class="designation bottom-m-space">CEO - ENVATO INC.</span>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                                                    eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section> -->
+                    <aside class="content-block pt-0">
+                        <div class="container">
+                            <div class="logo-container">
+                                <div class="owl-carousel logo-slide" id="waituk-owl-slide-4">
+                                    <div class="slide-item">
+                                        <img src="technologies-used/1.png" alt="ADP">
+                                    </div>
+                                    <div class="slide-item">
+                                        <img src="technologies-used/2.png" alt="ADP">
+                                    </div>
+                                    <div class="slide-item">
+                                        <img src="technologies-used/3.png" alt="ADP">
+                                    </div>
+                                    <div class="slide-item">
+                                        <img src="technologies-used/4.png" alt="ADP">
+                                    </div>
+                                    <div class="slide-item">
+                                        <img src="technologies-used/5.png" alt="ADP">
+                                    </div>
+                                    <div class="slide-item">
+                                        <img src="technologies-used/6.png" alt="ADP">
+                                    </div>
+                                    <div class="slide-item">
+                                        <img src="technologies-used/7.png" alt="ADP">
+                                    </div>
+                                    <div class="slide-item">
+                                        <img src="technologies-used/8.png" alt="ADP">
+                                    </div>
+                                    <div class="slide-item">
+                                        <img src="technologies-used/9.png" alt="ADP">
+                                    </div>
+                                    <div class="slide-item">
+                                        <img src="technologies-used/10.png" alt="ADP">
+                                    </div>
+                                    <div class="slide-item">
+                                        <img src="technologies-used/11.png" alt="ADP">
+                                    </div>
+                                    <div class="slide-item">
+                                        <img src="technologies-used/12.png" alt="ADP">
+                                    </div>
+                                    <div class="slide-item">
+                                        <img src="technologies-used/13.png" alt="ADP">
+                                    </div>
+                                    <div class="slide-item">
+                                        <img src="technologies-used/14.png" alt="ADP">
+                                    </div>
+                                    <div class="slide-item">
+                                        <img src="technologies-used/15.png" alt="ADP">
+                                    </div>
+                                    <div class="slide-item">
+                                        <img src="technologies-used/16.png" alt="ADP">
+                                    </div>
+                                    <div class="slide-item">
+                                        <img src="technologies-used/17.png" alt="ADP">
+                                    </div>
+                                    <div class="slide-item">
+                                        <img src="technologies-used/18.png" alt="ADP">
+                                    </div>
+                                    <div class="slide-item">
+                                        <img src="technologies-used/19.png" alt="ADP">
+                                    </div>
+                                    <div class="slide-item">
+                                        <img src="technologies-used/20.png" alt="ADP">
+                                    </div>
+                                    <div class="slide-item">
+                                        <img src="technologies-used/21.png" alt="ADP">
+                                    </div>
+                                    <div class="slide-item">
+                                        <img src="technologies-used/22.png" alt="ADP">
+                                    </div>
+                                    <div class="slide-item">
+                                        <img src="technologies-used/23.png" alt="ADP">
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </aside>
                 </div>
                 <!--/main content wrapper -->
-
-                <!--Technologies Used wrapper -->
-                <div class="content-wrapper p-0">
-                    <section class="content-block p-0">
-                        <div class="container p-0">
-                            <!-- <div class="demo-wrapper content-block pb-0 pt-0">
-                                <div class="demo-wrapper content-block pb-10 pt-0 text-center">
-                                    <h3 class="text-center element-heading"> Header Styles - V2</h3>
-                                    <div class="block-heading bottom-space">
-                                        <h2 class="block-main-heading">Block Main Heading</h2>
-                                        <div class="divider-v2"></div>
-                                        <h3 class="text-center element-heading">Technologies Used</h3>
-                                        <span class="block-sub-heading"><big>Technologies Used</big></span>
-                                    </div>
-                                    <p>Stakefield uses a plethora of tools to streamline our processes and achieve the
-                                        desired goals for our
-                                        clients. From gathering the client requirements to final delivery is entirely
-                                        managed through our
-                                        helpdesk.
-                                    </p>
-                                </div> -->
-                            <!-- main section -->
-                            <div class="content-wrapper p-0">
-                                <section class="content-block">
-                                    <div class="demo-wrapper content-block pb-10 pt-0 text-center"
-                                        style="padding-bottom:0">
-                                        <!-- <h3 class="text-center element-heading"> Header Styles - V2</h3> -->
-                                        <div class="block-heading bottom-space">
-                                            <!-- <h2 class="block-main-heading">Block Main Heading</h2>
-                                                                                <div class="divider-v2"></div> -->
-                                            <h3 class="text-center element-heading">Technologies Used</h3>
-                                            <!-- <span class="block-sub-heading"><big>Technologies Used</big></span> -->
-                                        </div>
-                                        <p>Stakefield uses a plethora of tools to streamline our processes and
-                                            achieve the
-                                            desired goals for our
-                                            clients. From gathering the client requirements to final delivery is
-                                            entirely
-                                            managed through our
-                                            helpdesk.
-                                        </p>
-                                    </div>
-                                    <div class="container">
-                                        <div class=" row multiple-row v-align-row">
-                                            <div class="demo-wrapper content-block" style="padding:0%">
-                                                <div class="row" style="margin: 0;">
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2 col-xs-6">
-                                                        <img src="technologies-used/1.png" alt="ADP">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2 col-xs-6">
-                                                        <img src="technologies-used/2.png" alt="agarapulse">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2 col-xs-6">
-                                                        <img src="technologies-used/3.png" alt="apllicantstack">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2 col-xs-6">
-                                                        <img src="technologies-used/4.png" alt="applicationmanager">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/5.png" alt="bamboohr">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/6.png" alt="basecamp">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/7.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/8.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/9.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/10.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/11.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/12.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/13.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/14.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/15.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/16.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/17.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/18.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/19.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/20.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/21.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/22.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/23.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/24.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/25.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/26.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/27.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/28.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/29.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/30.png" alt="boos">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/31.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/32.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/33.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/34.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/35.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/36.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/37.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/38.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/39.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/40.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/41.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/42.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/43.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/44.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/45.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/46.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/47.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/48.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/49.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/50.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/51.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/52.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/53.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/55.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/56.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/57.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/58.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/59.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/60.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/61.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/62.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/63.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/64.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/65.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/66.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/67.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/68.png" alt="boost">
-                                                    </div>
-                                                    <div class="col-6 col-sm-6 col-md-3 col-lg-2">
-                                                        <img src="technologies-used/69.png" alt="boost">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-
-
-                    </section>
-
-                </div>
-                <!-- Our sector of expertise -->
-                <!--Technologies Used wrapper -->
-                <div class="content-wrapper p-0">
-                    <section class="content-block" style="padding-top:0;padding-bottom:0">
-                        <div class="container p-0">
-                            <!-- <div class="demo-wrapper content-block pb-0 pt-0">
-                                                <div class="demo-wrapper content-block pb-10 pt-0 text-center">
-                                                    <h3 class="text-center element-heading"> Header Styles - V2</h3>
-                                                    <div class="block-heading bottom-space">
-                                                        <h2 class="block-main-heading">Block Main Heading</h2>
-                                                        <div class="divider-v2"></div>
-                                                        <h3 class="text-center element-heading">Technologies Used</h3>
-                                                        <span class="block-sub-heading"><big>Technologies Used</big></span>
-                                                    </div>
-                                                    <p>Stakefield uses a plethora of tools to streamline our processes and achieve the
-                                                        desired goals for our
-                                                        clients. From gathering the client requirements to final delivery is entirely
-                                                        managed through our
-                                                        helpdesk.
-                                                    </p>
-                                                </div> -->
-                            <!-- main section -->
-                            <div class="content-wrapper">
-                                <section class="content-block" style="padding-top: 0px;">
-                                    <div class="demo-wrapper content-block pb-10 pt-0 text-center"
-                                        style="padding-bottom: 25px;">
-                                        <!-- <h3 class="text-center element-heading"> Header Styles - V2</h3> -->
-                                        <div class="block-heading bottom-space">
-                                            <!-- <h2 class="block-main-heading">Block Main Heading</h2>
-                                                                                                <div class="divider-v2"></div> -->
-                                            <h3 class="text-center element-heading" style="margin-bottom: 0;">Our Sector
-                                                Of Expertise</h3>
-                                            <!-- <span class="block-sub-heading"><big>Technologies Used</big></span> -->
-                                        </div>
-                                        <p>Stakefield provides sector agnostic solutions custom-tailored based on each
-                                            client’s requirements.
-                                            We specialize in both IT and non-IT recruitment in multiple sectors and have
-                                            worked with a
-                                            clientele across the globe.
-                                        </p>
-                                    </div>
-                                    <div class="container">
-                                        <div class="row multiple-row v-align-row">
-                                            <div class="col-lg-4 col-md-6">
-                                                <div class="col-wrap">
-                                                    <div class="ico-box bg-gray-light has-radius-medium">
-                                                        <div class="icon">
-                                                            <img src="sector-expertise/it-service.png" alt=""
-                                                                style="height: 5rem;">
-                                                            </img>
-                                                        </div>
-                                                        <h4 class="content-title"><a href="#">IT Service</a></h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6">
-                                                <div class="col-wrap">
-                                                    <div class="ico-box bg-gray-light has-radius-medium">
-                                                        <div class="icon">
-                                                            <img src="sector-expertise/telecom.png" alt=""
-                                                                style="height: 5rem;">
-                                                        </div>
-                                                        <h4 class="content-title"><a href="#">TELECOM</a></h4>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6">
-                                                <div class="col-wrap">
-                                                    <div class="ico-box bg-gray-light has-radius-medium">
-                                                        <div class="icon">
-                                                            <img src="sector-expertise/healthcare.png" alt=""
-                                                                style="height: 5rem;">
-                                                        </div>
-                                                        <h4 class="content-title"><a href="#">HEALTHCARE</a></h4>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6">
-                                                <div class="col-wrap">
-                                                    <div class="ico-box bg-gray-light has-radius-medium">
-                                                        <div class="icon">
-                                                            <img src="sector-expertise/manufacturing.png" alt=""
-                                                                style="height: 5rem;">
-                                                        </div>
-                                                        <h4 class="content-title"><a href="#">MANUFACTURING AND
-                                                                INDUSTRIAL</a></h4>
-                                                        <!-- <div class="des">
-                                                            <p>Auersla, conse ctetur adipis icing lorem ipsum dolor
-                                                                sit amet</p>
-                                                        </div>
-                                                        <div class="link-holder">
-                                                            <a class="link-more" href="#">LEARN MORE</a>
-                                                        </div> -->
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6">
-                                                <div class="col-wrap">
-                                                    <div class="ico-box bg-gray-light has-radius-medium">
-                                                        <div class="icon">
-                                                            <img src="sector-expertise/startups.png" alt=""
-                                                                style="height: 5rem;">
-                                                        </div>
-                                                        <h4 class="content-title"><a href="#">STARTUPS</a></h4>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6">
-                                                <div class="col-wrap">
-                                                    <div class="ico-box bg-gray-light has-radius-medium">
-                                                        <div class="icon">
-                                                            <img src="sector-expertise/financebanks.png" alt=""
-                                                                style="height: 5rem;">
-                                                        </div>
-                                                        <h4 class="content-title"><a href="#">FINANCIAL
-                                                                INDUSTRIES (BANK)</a>
-                                                        </h4>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6">
-                                                <div class="col-wrap">
-                                                    <div class="ico-box bg-gray-light has-radius-medium">
-                                                        <div class="icon">
-                                                            <img src="sector-expertise/engineering.png" alt=""
-                                                                style="height: 5rem;">
-                                                        </div>
-                                                        <h4 class="content-title"><a href="#">ENGINEERING</a>
-                                                        </h4>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6">
-                                                <div class="col-wrap">
-                                                    <div class="ico-box bg-gray-light has-radius-medium">
-                                                        <div class="icon">
-                                                            <img src="sector-expertise/educational.png" alt=""
-                                                                style="height: 5rem;">
-                                                        </div>
-                                                        <h4 class="content-title"><a href="#">EDUCATIONAL
-                                                                TECHNOLOGY</a>
-                                                        </h4>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6">
-                                                <div class="col-wrap">
-                                                    <div class="ico-box bg-gray-light has-radius-medium">
-                                                        <div class="icon">
-                                                            <img src="sector-expertise/ecommerce.png" alt=""
-                                                                style="height: 5rem;">
-                                                        </div>
-                                                        <h4 class="content-title"><a href="#">E-COMMERCE</a>
-                                                        </h4>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6">
-                                                <div class="col-wrap">
-                                                    <div class="ico-box bg-gray-light has-radius-medium">
-                                                        <div class="icon">
-                                                            <img src="sector-expertise/notforprofit.png" alt=""
-                                                                style="height: 5rem;">
-                                                        </div>
-                                                        <h4 class="content-title"><a href="#">NOT FOR PROFIT/THIRD
-                                                                SECTOR</a>
-                                                        </h4>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <!-- <div class="col-lg-4 col-md-6">
-                                                <div class="col-wrap">
-                                                    <div class="ico-box bg-gray-light has-radius-medium"
-                                                        style="height: 5rem;">
-                                                        <div class="icon">
-                                                            <img src="sector-expertise/marketing.png" alt=""
-                                                                style="height: 5rem;">
-                                                        </div>
-                                                        <h4 class="content-title"><a href="#">MARKETING</a>
-                                                        </h4>
-
-                                                    </div>
-                                                </div>
-                                            </div> -->
-                                            <div class="col-lg-4 col-md-6">
-                                                <div class="col-wrap">
-                                                    <div class="ico-box bg-gray-light has-radius-medium">
-                                                        <div class="icon">
-                                                            <img src="sector-expertise/marketing.png" alt=""
-                                                                style="height: 5rem;">
-                                                        </div>
-                                                        <h4 class="content-title"><a href="#">MARKETING</a>
-                                                        </h4>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6">
-                                                <div class="col-wrap">
-                                                    <div class="ico-box bg-gray-light has-radius-medium">
-                                                        <div class="icon">
-                                                            <img src="sector-expertise/supportservice.png" alt=""
-                                                                style="height: 5rem;">
-                                                        </div>
-                                                        <h4 class="content-title"><a href="#">SUPPORT SERVICES</a>
-                                                        </h4>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-2 col-md-6">
-                                            </div>
-                                            <div class="col-lg-4 col-md-6">
-                                                <div class="col-wrap">
-                                                    <div class="ico-box bg-gray-light has-radius-medium">
-                                                        <div class="icon">
-                                                            <img src="sector-expertise/public-sector.png" alt=""
-                                                                style="height: 5rem;">
-                                                        </div>
-                                                        <h4 class="content-title"><a href="#">PUBLIC SECTOR</a>
-                                                        </h4>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-4 col-md-6">
-                                                <div class="col-wrap">
-                                                    <div class="ico-box bg-gray-light has-radius-medium">
-                                                        <div class="icon">
-                                                            <img src="sector-expertise/technology.png" alt=""
-                                                                style="height: 5rem;">
-                                                        </div>
-                                                        <h4 class="content-title"><a href="#">TECHNOLOGY</a>
-                                                        </h4>
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-lg-2 col-md-6">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </section>
-
-
-                    </section>
-
-                </div>
+            </main>
         </div>
-    </div>
-    </section>
-    </div>
-    <!--/Technologies Used wrapper -->
-    </main>
-    <section style="background: #242245!important;height: 5%;height: 28vh;
-    display: flex;
-    align-items: center;
-    text-align: center;">
+   <!-- footer of the pagse -->
+   <footer class="footer footer-v1">
+    <div class="content-block footer-main text-center">
         <div class="container">
-            <div class="inner-wrapper">
-                <!-- <h3 class="block-top-heading text-white">BEST EVER DESIGN</h3> -->
-                <h2 class="text-white" style="font-size: 1.35714286em;
-    line-height: 1.68421053em;font-weight: 300;">Looking to partner with us?</h2>
-                <div class="btn-container">
-                    <a href="#" class="btn btn-primary has-radius-small btn-sm">GET
-                        IN TOUCH</a>
-                </div>
+            <!-- <h3>We are social</h3> -->
+            <ul class="social-network with-text">
+                <li><a href="#" style="font-size: 1rem;">Home</li>
+                <li><a href="aboutus.html" style="font-size: 1rem;">About Stakefield</li>
+                <li><a href="#" style="font-size: 1rem;">CEO Message</li>
+                <li><a href="#" style="font-size: 1rem;">Leadership</li>
+                <li><a href="#" style="font-size: 1rem;">Global Approach</li>
+                <li><a href="contact.html" style="font-size: 1rem;">Contact Us</li>
+                <li><a href="#" style="font-size: 1rem;">Locations</li>
+            </ul>
+            <div class="divider-border-dark sm-border"><span class="sr-only">&nbsp;</span></div>
+            <div class="footer-nav inline-nav">
+                <ul>
+                    <li><a href="#" style="font-size: 0.85714286em;">Privacy Policy</a></li>
+                    <li><a href="#" style="font-size: 0.85714286em;">Terms of Use</a></li>
+                    <!-- <li><a href="#">Legal</a></li>
+                    <li><a href="#">Social</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li> -->
+                </ul>
+            </div>
+            <div class="footer-nav mt-4">
+                <ul>
+                    <li><a href="https://www.hashroot.com/" target="_blank">Stakefield is a brand of HashRoot</a></li>
+                </ul>
             </div>
         </div>
-    </section>
-    </div>
-    <!-- footer of the pagse -->
-    <footer class="footer footer-v1">
-        <div class="content-block footer-main text-center">
-            <div class="container">
-                <!-- <h3>We are social</h3> -->
-                <ul class="social-network with-text">
-                    <li><a href="#" style="font-size: 1rem;">Home</li>
-                    <li><a href="aboutus.html" style="font-size: 1rem;">About Stakefield</li>
-                    <li><a href="#" style="font-size: 1rem;">CEO Message</li>
-                    <li><a href="#" style="font-size: 1rem;">Leadership</li>
-                    <li><a href="#" style="font-size: 1rem;">Global Approach</li>
-                    <li><a href="#" style="font-size: 1rem;">Contact Us</li>
-                    <li><a href="#" style="font-size: 1rem;">Locations</li>
-                </ul>
-                <div class="divider-border-dark sm-border"><span class="sr-only">&nbsp;</span></div>
-                <div class="footer-nav inline-nav">
-                    <ul>
-                        <li><a href="#" style="font-size: 0.85714286em;">Privacy Policy</a></li>
-                        <li><a href="#" style="font-size: 0.85714286em;">Terms of Use</a></li>
-                        <!-- <li><a href="#">Legal</a></li>
-                        <li><a href="#">Social</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li> -->
-                    </ul>
-                </div>
-                <div class="footer-nav mt-4">
-                    <ul>
-                        <li><a href="https://www.hashroot.com/" target="_blank">Stakefield is a brand of HashRoot</a></li>
-                    </ul>
-                </div>
-            </div>
-            <!-- </div>
-        <div class="footer-bottom text-center">
-            <div class="container">
-                <p>Copyright 2017 - Waituk </p>
-            </div>
-        </div> -->
-    </footer>
-    <!--/footer of the page -->
+        <!-- </div>
+    <div class="footer-bottom text-center">
+        <div class="container">
+            <p>Copyright 2017 - Waituk </p>
+        </div>
+    </div> -->
+</footer>
+<!--/footer of the page -->
     </div>
     <!-- open/close -->
     <div class="search-form-wrapper overlay overlay-hugeinc">
@@ -946,18 +1103,6 @@
         src="vendors/rev-slider/revolution-addons/snow/revolution.addon.snow.min.js"></script>
     <!-- Revolution Slider Script -->
     <script src="js/revolution.js"></script>
-    <script>
-        var closebtns = document.getElementsByClassName("close");
-var i;
-
-for (i = 0; i < closebtns.length; i++) {
-  closebtns[i].addEventListener("click", function() {
-    this.parentElement.style.display = 'none';
-    var a=document.getElementById('popup');
-    a.remove();
-  });
-}
-    </script>
 </body>
 
 </html>
