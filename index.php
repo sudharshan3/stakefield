@@ -71,45 +71,7 @@
         </div>
     </div> -->
     <!--Side panel-->
-    <nav class="nav-wrap bg-white">
-        <!-- opener inside of collapsible menu -->
-        <div class="nav-trigger nav-trigger-close">
-            <a href="#">Close Panel <i class="icon-long-arrow-right"></i> </a>
-            <div class="divider-border"><span class="sr-only"></span></div>
-        </div>
-
-        <div class="col-sm-6 pb-3">
-            <a href="#" class="btn btn-black btn-small-font btn-solid-facebook has-radius-small"><span
-                    class="icon-facebook"><span class="sr-only">&nbsp;</span></span> LOGIN WITH FACEBOOK</a>
-        </div>
-        <div class="col-sm-6">
-            <a href="#" class="btn btn-black btn-small-font btn-solid-google has-radius-small"><span
-                    class="icon-google-plus"><span class="sr-only">&nbsp;</span></span> LOGIN WITH GOOGLE</a>
-        </div>
-        <div class="divider-border"><span class="sr-only"></span></div>
-        <ul class="side-nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="blog-single.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <nav class="header-links">
-            <ul>
-                <li><a href="#">Login</a></li>
-                <li><a href="#">Register</a></li>
-            </ul>
-        </nav>
-        <div class="divider-border"><span class="sr-only"></span></div>
-        <div class="p-3">
-            <ul class="social-network square-icon shadowed-icon">
-                <li><a href="#"><span class="icon-facebook"></span></a></li>
-                <li><a href="#"><span class="icon-twitter"></span></a></li>
-                <li><a href="#"><span class="icon-google-plus"></span></a></li>
-                <li><a href="#"><span class="icon-pinterest"></span></a></li>
-                <li><a href="#"><span class="icon-dribbble"></span></a></li>
-            </ul>
-        </div>
-    </nav>
+  <?php include("./header.php");?>
     <!-- main wrapper -->
     <div id="wrapper" class="no-overflow-x">
         <div class="page-wrapper">
@@ -144,10 +106,10 @@
                                         <a class="dropdown-toggle" data-toggle="dropdown" href="index.html"
                                             data-title="Home"> Case Studies </a>
                                         <ul class="dropdown-menu no-border-radius">
-                                            <li><a href="casestudy1.html">Case Study 1</a></li>
-                                            <li><a href="casestudy2.html"> Case Study 2 </a></li>
-                                            <li><a href="casestudy3.html"> Case Study 3</a></li>
-                                            <li><a href="casestudy4.html"> Case Study 4 </a></li>
+                                            <li><a href="casestudy1.html">Staffing Engineering Talent</a></li>
+                                            <li><a href="casestudy2.html"> Contract-Based Employment </a></li>
+                                            <li><a href="casestudy3.html"> Silicon Valley Startup Tech Hiring</a></li>
+                                            <li><a href="casestudy4.html"> Mass Hiring and Training </a></li>
                                         </ul>
                                     </li>
                                     <li class="dropdown right-dropdown" data-animation="fadeIn">
