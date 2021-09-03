@@ -3437,7 +3437,7 @@ em.state-invalid {
 
 .main-header .navbar .navbar-nav li a {
 	color: #fff;
-	padding: 2.25rem 0.6rem ; /*Custom*/
+	padding: 2.25rem 1rem;
 	display: inline-block;
 }
 
