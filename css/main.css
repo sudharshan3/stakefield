@@ -6295,7 +6295,8 @@ pre {
 }
 
 .team-box figcaption,.team-box .figcaption {
-	background: #5645ff;
+	/* background: #5645ff; */
+	background: #000;
 	color: #fff;
 }
 
