@@ -11,12 +11,12 @@
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                             <a class="navbar-brand mr-auto m-sm-auto" href="/"> 
-                                <img src="img/logo/SF-logo-white.svg" alt="roxine" style="width: 5rem"> 
-                                <img src="img/logo/SF-logo-black.svg" alt="roxine" style="width: 5rem"> </a>
+                                <img src="https://www.stakefield.com/img/logo/SF-logo-white.svg" alt="stakefield" style="width: 5rem"> 
+                                <img src="https://www.stakefield.com/img/logo/SF-logo-black.svg" alt="stakefield" style="width: 5rem"> </a>
                             <div class="collapse navbar-collapse flex-row-reverse" id="mega-menu">
                                 <ul class="nav navbar-nav">
                                     <li>
-                                        <a href="index.php"> Home </a>
+                                        <a href="/"> Home </a>
                                     </li>
                                     <li class="dropdown right-dropdown" data-animation="fadeIn">
                                         <a class="dropdown-toggle" data-toggle="dropdown" href="index.php" data-title="Home"> About Company </a>
@@ -29,7 +29,7 @@
                                             <li><a href="/corporate-social-responsibility"> Corporate Social Responsibility
                                                 </a></li>
                                             <li><a href="/sustainability-strategy"> Sustainability Strategy</a></li>
-                                                <li><a href="./empowerment.php"> Empowerment of Employees
+                                                <li><a href="/empowerment-employees"> Empowerment of Employees
                                                 </a></li>
                                                 <li><a href="/global-approach.php"> Global Approach
                                                 </a></li>

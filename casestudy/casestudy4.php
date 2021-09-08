@@ -9,31 +9,31 @@
     <meta name="description" content="Take a look at how Stakefield helped a highly decorated stalwart in the Indian Telecom space to stage a mass recruitment process to meet their job requirements.">
     <meta name="keywords" content="stakefield">
     
-    <link rel="icon" href="./img/logo/favicon/black.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="../img/logo/favicon/black.png" type="image/png" sizes="32x32">
     <title>Mass Hiring & Digital Training Infrastructure | Stakefield </title>
     <!-- Font Icons -->
-    <link media="all" rel="stylesheet" href="css/fonts/icomoon/icomoon.css">
-    <link media="all" rel="stylesheet" href="css/fonts/icomoon/icon_new.css">
-    <link media="all" rel="stylesheet" href="css/fonts/roxine-font-icon/roxine-font.css">
-    <link media="all" rel="stylesheet" href="vendors/font-awesome/css/font-awesome.css">
+    <link media="all" rel="stylesheet" href="../css/fonts/icomoon/icomoon.css">
+    <link media="all" rel="stylesheet" href="../css/fonts/icomoon/icon_new.css">
+    <link media="all" rel="stylesheet" href="../css/fonts/roxine-font-icon/roxine-font.css">
+    <link media="all" rel="stylesheet" href="../vendors/font-awesome/css/font-awesome.css">
     <!-- Vendors -->
-    <link media="all" rel="stylesheet" href="vendors/owl-carousel/dist/assets/owl.carousel.min.css">
-    <link media="all" rel="stylesheet" href="vendors/owl-carousel/dist/assets/owl.theme.default.min.css">
-    <link media="all" rel="stylesheet" href="vendors/animate/animate.css">
-    <link media="all" rel="stylesheet" href="vendors/rateyo/jquery.rateyo.css">
-    <link media="all" rel="stylesheet" href="vendors/bootstrap-datepicker/css/bootstrap-datepicker.css">
-    <link media="all" rel="stylesheet" href="vendors/fancyBox/source/jquery.fancybox.css">
-    <link media="all" rel="stylesheet" href="vendors/fancyBox/source/helpers/jquery.fancybox-thumbs.css">
+    <link media="all" rel="stylesheet" href="../vendors/owl-carousel/dist/assets/owl.carousel.min.css">
+    <link media="all" rel="stylesheet" href="../vendors/owl-carousel/dist/assets/owl.theme.default.min.css">
+    <link media="all" rel="stylesheet" href="../vendors/animate/animate.css">
+    <link media="all" rel="stylesheet" href="../vendors/rateyo/jquery.rateyo.css">
+    <link media="all" rel="stylesheet" href="../vendors/bootstrap-datepicker/css/bootstrap-datepicker.css">
+    <link media="all" rel="stylesheet" href="../vendors/fancyBox/source/jquery.fancybox.css">
+    <link media="all" rel="stylesheet" href="../vendors/fancyBox/source/helpers/jquery.fancybox-thumbs.css">
     <!-- Bootstrap 4 -->
-    <link media="all" rel="stylesheet" href="css/bootstrap.css">
+    <link media="all" rel="stylesheet" href="../css/bootstrap.css">
     <!-- Rev Slider -->
-    <link rel="stylesheet" type="text/css" href="vendors/rev-slider/revolution/css/settings.css">
-    <link rel="stylesheet" type="text/css" href="vendors/rev-slider/revolution/css/layers.css">
-    <link rel="stylesheet" type="text/css" href="vendors/rev-slider/revolution/css/navigation.css">
+    <link rel="stylesheet" type="text/css" href="../vendors/rev-slider/revolution/css/settings.css">
+    <link rel="stylesheet" type="text/css" href="../vendors/rev-slider/revolution/css/layers.css">
+    <link rel="stylesheet" type="text/css" href="../vendors/rev-slider/revolution/css/navigation.css">
     <!-- Theme CSS -->
-    <link media="all" rel="stylesheet" href="css/main.css">
+    <link media="all" rel="stylesheet" href="../css/main.css">
     <!-- Custom CSS -->
-    <link media="all" rel="stylesheet" href="css/custom.css">
+    <link media="all" rel="stylesheet" href="../css/custom.css">
 
 </head>
 
@@ -43,12 +43,12 @@
         <div class="page-wrapper">
             <!-- header of the page -->
        <!-- header of the page -->
-       <?php include("./header.php");?>
+       <?php include("../header.php");?>
     <!--/header of the page -->
             <!--/main content wrapper -->
             <main class="banner">
                 <section class="visual">
-                    <div class="colored-bg fullscreen-bg dark-overlay parallax" data-stellar-background-ratio="0.55" style="background-image: url('./img/case-study/04.jpg');">
+                    <div class="colored-bg fullscreen-bg dark-overlay parallax" data-stellar-background-ratio="0.55" style="background-image: url('../img/case-study/04.jpg');">
                         <div class="centered centered-wrap text-center">
                             <div class="container">
                                 <div class="visual-text visual-center ">    
@@ -106,7 +106,7 @@
                     </div>
                 </section>
                 <section class="visual">
-                    <div class="colored-bg fullscreen-bg dark-overlay parallax" data-stellar-background-ratio="0.55" style="background-image: url('./img/our-service/contract\ based\ staffing.jpg');">
+                    <div class="colored-bg fullscreen-bg dark-overlay parallax" data-stellar-background-ratio="0.55" style="background-image: url('../img/our-service/contract\ based\ staffing.jpg');">
                         <div class="centered centered-wrap text-center">
                             <div class="container">
                                 <div class="visual-text visual-center">                              
@@ -220,7 +220,7 @@
 
 
             <!-- footer of the pagse -->
-            <?php include("./footer.php");?>
+            <?php include("../footer.php");?>
             <!--/footer of the page -->
         </div>
         <!-- search form wrapper -->
@@ -234,58 +234,58 @@
 
         <a href="#" class="section-scroll" id="scroll-to-top"><i class="fa fa-angle-up"></i></a>
         <!-- jquery library -->
-        <script src="vendors/jquery/jquery-2.1.4.min.js"></script>
+        <script src="../vendors/jquery/jquery-2.1.4.min.js"></script>
         <!-- external scripts -->
-        <script src="vendors/tether/dist/js/tether.min.js"></script>
-        <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
-        <script src="vendors/stellar/jquery.stellar.min.js"></script>
-        <script src="vendors/isotope/javascripts/isotope.pkgd.min.js"></script>
-        <script src="vendors/isotope/javascripts/packery-mode.pkgd.js"></script>
-        <script src="vendors/owl-carousel/dist/owl.carousel.js"></script>
-        <script src="vendors/waypoint/waypoints.min.js"></script>
-        <script src="vendors/counter-up/jquery.counterup.min.js"></script>
-        <script src="vendors/fancyBox/source/jquery.fancybox.pack.js"></script>
-        <script src="vendors/fancyBox/source/helpers/jquery.fancybox-thumbs.js"></script>
-        <script src="vendors/image-stretcher-master/image-stretcher.js"></script>
-        <script src="vendors/wow/wow.min.js"></script>
-        <script src="vendors/rateyo/jquery.rateyo.js"></script>
-        <script src="vendors/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
-        <script src="vendors/bootstrap-slider-master/src/js/bootstrap-slider.js"></script>
-        <script src="vendors/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
-        <script src="js/mega-menu.js"></script>
+        <script src="../vendors/tether/dist/js/tether.min.js"></script>
+        <script src="../vendors/bootstrap/js/bootstrap.min.js"></script>
+        <script src="../vendors/stellar/jquery.stellar.min.js"></script>
+        <script src="../vendors/isotope/javascripts/isotope.pkgd.min.js"></script>
+        <script src="../vendors/isotope/javascripts/packery-mode.pkgd.js"></script>
+        <script src="../vendors/owl-carousel/dist/owl.carousel.js"></script>
+        <script src="../vendors/waypoint/waypoints.min.js"></script>
+        <script src="../vendors/counter-up/jquery.counterup.min.js"></script>
+        <script src="../vendors/fancyBox/source/jquery.fancybox.pack.js"></script>
+        <script src="../vendors/fancyBox/source/helpers/jquery.fancybox-thumbs.js"></script>
+        <script src="../vendors/image-stretcher-master/image-stretcher.js"></script>
+        <script src="../vendors/wow/wow.min.js"></script>
+        <script src="../vendors/rateyo/jquery.rateyo.js"></script>
+        <script src="../vendors/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+        <script src="../vendors/bootstrap-slider-master/src/js/bootstrap-slider.js"></script>
+        <script src="../vendors/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+        <script src="../js/mega-menu.js"></script>
         <!-- custom jquery script -->
-        <script src="js/jquery.main.js"></script>
-        <script src="js/jquery.validate.js"></script>
-        <script src="js/mailchimp.js"></script>
-        <script src="js/contact-form.js"></script>
+        <script src="../js/jquery.main.js"></script>
+        <script src="../js/jquery.validate.js"></script>
+        <script src="../js/mailchimp.js"></script>
+        <script src="../js/contact-form.js"></script>
         <!-- REVOLUTION JS FILES -->
-        <script type="text/javascript" src="vendors/rev-slider/revolution/js/jquery.themepunch.tools.min.js"></script>
+        <script type="text/javascript" src="../vendors/rev-slider/revolution/js/jquery.themepunch.tools.min.js"></script>
         <script type="text/javascript"
-            src="vendors/rev-slider/revolution/js/jquery.themepunch.revolution.min.js"></script>
+            src="../vendors/rev-slider/revolution/js/jquery.themepunch.revolution.min.js"></script>
         <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems !  The following part can be removed on Server for On Demand Loading) -->
         <script type="text/javascript"
-            src="vendors/rev-slider/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+            src="../vendors/rev-slider/revolution/js/extensions/revolution.extension.actions.min.js"></script>
         <script type="text/javascript"
-            src="vendors/rev-slider/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
+            src="../vendors/rev-slider/revolution/js/extensions/revolution.extension.carousel.min.js"></script>
         <script type="text/javascript"
-            src="vendors/rev-slider/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+            src="../vendors/rev-slider/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
         <script type="text/javascript"
-            src="vendors/rev-slider/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+            src="../vendors/rev-slider/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
         <script type="text/javascript"
-            src="vendors/rev-slider/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+            src="../vendors/rev-slider/revolution/js/extensions/revolution.extension.migration.min.js"></script>
         <script type="text/javascript"
-            src="vendors/rev-slider/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+            src="../vendors/rev-slider/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
         <script type="text/javascript"
-            src="vendors/rev-slider/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+            src="../vendors/rev-slider/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
         <script type="text/javascript"
-            src="vendors/rev-slider/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+            src="../vendors/rev-slider/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
         <script type="text/javascript"
-            src="vendors/rev-slider/revolution/js/extensions/revolution.extension.video.min.js"></script>
+            src="../vendors/rev-slider/revolution/js/extensions/revolution.extension.video.min.js"></script>
         <!-- SNOW ADD ON -->
         <script type="text/javascript"
-            src="vendors/rev-slider/revolution-addons/snow/revolution.addon.snow.min.js"></script>
+            src="../vendors/rev-slider/revolution-addons/snow/revolution.addon.snow.min.js"></script>
         <!-- revolutions slider script -->
-        <script src="js/revolution.js"></script>
+        <script src="../js/revolution.js"></script>
 </body>
 
 </html>

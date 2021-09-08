@@ -1,15 +1,14 @@
 RewriteEngine on
-RewriteCond %{HTTP_HOST} ^stakefield.com [NC]
-RewriteRule ^(.*)$ http://www.stakefield.com/$1 [L,R=301]
 
 RewriteRule ^/?/$ /index.php
-RewriteRule ^/?about-us$ /about-us
+RewriteRule ^/?about-us$ /aboutus.php
 RewriteRule ^/?corporate-social-responsibility$ /csr.php
 RewriteRule ^/?staffing-services$ /ourservice.php
-RewriteRule ^/?casestudy/staffing-engineering-talent$ /casestudy1.php
-RewriteRule ^/?casestudy/contract-based-employment$ /casestudy2.php
-RewriteRule ^/?casestudy/silicon-valley-startup$ /casestudy3.php
-RewriteRule ^/?casestudy/mass-hiring$ /casestudy4.php
+RewriteRule ^/?empowerment-employees$ /empowerment.php
+RewriteRule ^/?casestudy/staffing-engineering-talent$ /casestudy/casestudy1.php
+RewriteRule ^/?casestudy/contract-based-employment$ /casestudy/casestudy2.php
+RewriteRule ^/?casestudy/silicon-valley-startup$ /casestudy/casestudy3.php
+RewriteRule ^/?casestudy/mass-hiring$ /casestudy/casestudy4.php
 RewriteRule ^/?sustainability-strategy$ /sustainablestrategy.php
 RewriteRule ^/?global-approach.php$ /globalapproach.php
 RewriteRule ^/?life-at-stakefield$ /lifeatstakefield.php

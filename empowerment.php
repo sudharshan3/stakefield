@@ -5,12 +5,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta name="title" content="sample">
-    <meta name="description" content="sample">
+    <meta name="title" content="Empowerment of Employees | Stakefield">
+    <meta name="description" content="Stakefield makes people feel valued by involving them in decision-making, praising them, and continually providing adequate training and support. ">
     <meta name="keywords" content="stakefield">
     
     <link rel="icon" href="./img/logo/favicon/black.png" type="image/png" sizes="32x32">
-    <title>Empowerment of Employees</title>
+    <title>Empowerment of Employees | Stakefield</title>
     <!-- Font Icons -->
     <link media="all" rel="stylesheet" href="css/fonts/icomoon/icomoon.css">
     <link media="all" rel="stylesheet" href="css/fonts/icomoon/icon_new.css">

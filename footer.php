@@ -16,7 +16,7 @@
                     <div class="row">
                         <div class="col-lg-3">
                             <div class="footer-logo mt-2">
-                                <img style="width: 8rem;" src="./img/logo/SF-logo-white.svg" alt="image-description">
+                                <img style="width: 8rem;" src="https://www.stakefield.com/img/logo/SF-logo-white.svg" alt="image-description">
                             </div>
                         </div>
                        
@@ -27,7 +27,7 @@
                                     <li><a href="/about-us">About Stakefield</a></li>
                                     <li><a href="/corporate-social-responsibility">Corporate Social Responsibility</a></li>
                                     <li><a href="/sustainability-strategy">Sustainability Strategy</a></li>
-                                    <li><a href="./empowerment.php">Empowerment of Employees</a></li>
+                                    <li><a href="/empowerment-employees">Empowerment of Employees</a></li>
                                     <li><a href="/global-approach.php">Global Approach</a></li>
                                     <li><a href="/life-at-stakefield">Life at StakeField</a></li>
                              
@@ -66,13 +66,13 @@
                         <div class="col-12 col-md-6 py-2">
                         <div class="row">
                             <div class="col-4 col-md-4 m-auto text-center">
-                                <img src="./img/footer_images/GDPR.png" alt="" srcset="" >
+                                <img src="https://www.stakefield.com/img/footer_images/GDPR.png" alt="stakefield" srcset="" >
                             </div>
                             <div class="col-4 col-md-4 m-auto text-center">
-                                <img src="./img/footer_images/iso-footer-1.png" alt="" srcset="">
+                                <img src="https://www.stakefield.com/img/footer_images/iso-footer-1.png" alt="stakefield" srcset="">
                             </div>
                             <div class="col-4 col-md-4 m-auto text-center">
-                                <img src="./img/footer_images/iso-footer-2.png" alt="" srcset="">
+                                <img src="https://www.stakefield.com/img/footer_images/iso-footer-2.png" alt="stakefield" srcset="">
                             </div>
                         
                         </div>
