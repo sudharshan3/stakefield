@@ -42,109 +42,12 @@
         </div>
     </div> -->
     <!--Side panel-->
-    <nav class="nav-wrap bg-white">
-        <!-- opener inside of collapsible menu -->
-        <div class="nav-trigger nav-trigger-close">
-            <a href="#">Close Panel <i class="icon-long-arrow-right"></i> </a>
-            <div class="divider-border"><span class="sr-only"></span></div>
-        </div>
-
-        <div class="col-sm-6 pb-3">
-            <a href="#" class="btn btn-black btn-small-font btn-solid-facebook has-radius-small"><span
-                    class="icon-facebook"><span class="sr-only">&nbsp;</span></span> LOGIN WITH FACEBOOK</a>
-        </div>
-        <div class="col-sm-6">
-            <a href="#" class="btn btn-black btn-small-font btn-solid-google has-radius-small"><span
-                    class="icon-google-plus"><span class="sr-only">&nbsp;</span></span> LOGIN WITH GOOGLE</a>
-        </div>
-        <div class="divider-border"><span class="sr-only"></span></div>
-        <ul class="side-nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="blog-single.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <nav class="header-links">
-            <ul>
-                <li><a href="#">Login</a></li>
-                <li><a href="#">Register</a></li>
-            </ul>
-        </nav>
-        <div class="divider-border"><span class="sr-only"></span></div>
-        <div class="p-3">
-            <ul class="social-network square-icon shadowed-icon">
-                <li><a href="#"><span class="icon-facebook"></span></a></li>
-                <li><a href="#"><span class="icon-twitter"></span></a></li>
-                <li><a href="#"><span class="icon-google-plus"></span></a></li>
-                <li><a href="#"><span class="icon-pinterest"></span></a></li>
-                <li><a href="#"><span class="icon-dribbble"></span></a></li>
-            </ul>
-        </div>
-    </nav>
+  
     <!-- main wrapper -->
     <div id="wrapper" class="no-overflow-x">
         <div class="page-wrapper">
             <!-- header of the page -->
-            <header class="fixed-top main-header header-white transparent with-side-panel-ico" id="waituk-main-header">
-                <div id="nav-section">
-                    <div class="bottom-header container-fluid mega-menus" id="mega-menus">
-                        <nav class="navbar navbar-toggleable-md no-border-radius no-margin mega-menu-multiple" id="navbar-inner-container">
-                            <form action="mega-menu-5.html" id="top-search" class="no-margin top-search">
-                                <div class="form-group no-margin">
-                                    <input class="form-control no-border" id="search_term" name="search_term" placeholder="Type & Press Enter" type="text">
-                                </div>
-                            </form>
-                            <button type="button" class="navbar-toggler navbar-toggler-left" data-toggle="collapse" data-target="#mega-menu">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <a class="navbar-brand mr-auto m-sm-auto" href="index.html"> 
-                                <img src="img/logo/SF-logo-white.svg" alt="roxine" style="width: 5rem"> 
-                                <img src="img/logo/SF-logo-black.svg" alt="roxine" style="width: 5rem"> </a>
-                            <div class="collapse navbar-collapse flex-row-reverse" id="mega-menu">
-                                <ul class="nav navbar-nav">
-                                    <li>
-                                        <a href="index.html"> Home </a>
-                                    </li>
-                                    <li class="dropdown right-dropdown" data-animation="fadeIn">
-                                        <a class="dropdown-toggle" data-toggle="dropdown" href="index.html" data-title="Home"> About Company </a>
-                                        <ul class="dropdown-menu no-border-radius">
-                                            <li><a href="aboutus.html">About Stakefield</a></li>
-                                            <!-- <li><a href="ceomessage.html"> CEO Message </a></li>
-                                            <li><a href="leadership.html"> Leadership</a></li> -->
-                                            <!-- <li><a href="contact.html"> Locations </a></li> -->
-                                            <!-- <li><a href="blog-right-sidebar.html"> Capabilities </a></li> -->
-                                            <li><a href="csr.html"> Corporate Social Responsibility
-                                                </a></li>
-                                            <li><a href="sustainablestrategy.html"> Sustainability Strategy</a></li>
-<li><a href="empowerment.html"> Empowerment of Employees
-</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="ourservice.html"> Our Services </a>
-                                    </li>
-                                    <li class="dropdown right-dropdown" data-animation="fadeIn">
-                                        <a class="dropdown-toggle" data-toggle="dropdown" href="index.html" data-title="Home"> Case Studies </a>
-                                        <ul class="dropdown-menu no-border-radius">
-                                            <li><a href="casestudy1.html"> Staffing Engineering Talent</a></li>
-                                            <li><a href="casestudy2.html"> Contract-Based Employment </a></li>
-                                            <li><a href="casestudy3.html"> Silicon Valley Startup</a></li>
-                                            <li><a href="casestudy4.html"> Mass Hiring and Training </a></li>
-                                        </ul>
-                                    </li>
-                               
-                            
-                                    <li>
-                                        <a href="contact.html"> Contact Us</a>
-                                    </li>
-
-                                </ul>
-                            </div>
-
-                        </nav>
-                    </div>
-                </div>
-            </header>
+                <?php include("./header.php");?>
             <!--/header of the page -->
             <main>
                 <!-- visual/banner of the page -->
@@ -183,7 +86,7 @@
                                         data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power3.easeOut;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
                                         data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;" data-start="1250" data-splitin="none" data-splitout="none" data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-164","delay":""}]'
                                         data-responsive_offset="on" data-paddingtop="[0,0,0,0]" data-paddingright="[25,25,25,25]" data-paddingbottom="[25,25,25,25]" data-paddingleft="[25,25,25,25]">
-                                        <a class="btn btn-primary has-radius-small" href="contact.html">GET IN TOUCH</a>
+                                        <a class="btn btn-primary has-radius-small" href="contact.php">GET IN TOUCH</a>
                                     </div>
                                 </li>
                             </ul>
@@ -215,7 +118,7 @@
                                             <div class="icon cardicon">
                                                 <img src="icons/Permanenet staffing and placement-01.png" alt="">
                                             </div>
-                                            <h5 class="content-title"><a href="ourservice.html">PERMANENT STAFFING &
+                                            <h5 class="content-title"><a href="ourservice.php">PERMANENT STAFFING &
                                                     PLACEMENT</a></h5>
                                             <div class="des">
                                                 <p>We help you find the right talent for your organization in the easiest and cost-effective way.</p>
@@ -232,7 +135,7 @@
                                             <div class="icon cardicon">
                                                 <img src="icons/Executive search and selection-01.png" alt="">
                                             </div>
-                                            <h5 class="content-title"><a href="ourservice.html">EXECUTIVE SEARCH & SELECTION</a></h5>
+                                            <h5 class="content-title"><a href="ourservice.php">EXECUTIVE SEARCH & SELECTION</a></h5>
                                             <div class="des">
                                                 <p>Our consultants will ensure you have access to the right
                                                     executive-level professionals you are looking for.</p>
@@ -250,7 +153,7 @@
                                             <div class="icon cardicon">
                                                 <img src="icons/Contract based staffing-01.png" alt="">
                                             </div>
-                                            <h5 class="content-title"><a href="ourservice.html">CONTRACT-BASED
+                                            <h5 class="content-title"><a href="ourservice.php">CONTRACT-BASED
                                                     STAFFING</a></h5>
                                             <div class="des">
                                                 <p>We ensure that the right people are deployed in the right positions at short notice.</p>
@@ -269,7 +172,7 @@
                                             <div class="icon cardicon">
                                                 <img src="icons/Assessment solutions-01.png" alt="">
                                             </div>
-                                            <h5 class="content-title"><a href="ourservice.html">ASSESSMENT SOLUTIONS</a>
+                                            <h5 class="content-title"><a href="ourservice.php">ASSESSMENT SOLUTIONS</a>
                                             </h5>
                                             <div class="des">
                                                 <p>Our specialized consultant helps you in identifying the employees who have the right skills and personalities.
@@ -288,7 +191,7 @@
                                             <div class="icon cardicon">
                                                 <img src="icons/Managed services-01.png" alt="">
                                             </div>
-                                            <h5 class="content-title"><a href="ourservice.html">MANAGED SERVICES</a>
+                                            <h5 class="content-title"><a href="ourservice.php">MANAGED SERVICES</a>
                                             </h5>
                                             <div class="des">
                                                 <p>With our managed service program you will get complete visibility over your non-permanent workforce.</p>
@@ -306,7 +209,7 @@
                                             <div class="icon cardicon">
                                                 <img src="icons/Background and identity verification services-01.png" alt="">
                                             </div>
-                                            <h5 class="content-title"><a href="ourservice.html">BACKGROUND & IDENTITY
+                                            <h5 class="content-title"><a href="ourservice.php">BACKGROUND & IDENTITY
                                                     VERIFICATION SERVICE</a></h5>
                                             <div class="des">
                                                 <p>We check for legal as well as government ID verification to ensure the candidates fit well within the client's organization.</p>
@@ -500,13 +403,13 @@
                                                     <!-- <time class="post-date" datetime="2016-10-10">17 Jun</time> -->
                                                 </div>
                                                 <div class="post-text-block bg-gray-light">
-                                                    <h4><a href="casestudy1.html">Staffing Engineering Talent</a></h4>
+                                                    <h4><a href="casestudy1.php">Staffing Engineering Talent</a></h4>
 
                                                     <p class="show_more">No one enterprise can be everything to everyone, irrespective of its size or expertise at its disposal. It may certainly appear an easy task to hire individuals who would want to be employed at an esteemed...
                                                     </p>
                                                     <div class="post-meta clearfix">
                                                         <div class="post-link-holder">
-                                                            <a href="casestudy1.html">Read Case Study <span
+                                                            <a href="casestudy1.php">Read Case Study <span
                                                                     class="fa fa-arrow-right"><span
                                                                         class="sr-only">&nbsp;</span></span></a>
                                                         </div>
@@ -533,13 +436,13 @@
                                                     <!-- <time class="post-date" datetime="2016-10-10">17 Jun</time> -->
                                                 </div>
                                                 <div class="post-text-block bg-gray-light">
-                                                    <h4><a href="casestudy2.html">Contract-Based Employment</a></h4>
+                                                    <h4><a href="casestudy2.php">Contract-Based Employment</a></h4>
 
                                                     <p class="show_more">The client, a multi-billion dollar telecom provider headquartered in Germany, was in search of a partner who could support their efforts to overhaul their IT systems of their data center through .....
                                                     </p>
                                                     <div class="post-meta clearfix">
                                                         <div class="post-link-holder">
-                                                            <a href="casestudy2.html">Read Case Study <span
+                                                            <a href="casestudy2.php">Read Case Study <span
                                                                     class="fa fa-arrow-right"><span
                                                                         class="sr-only">&nbsp;</span></span></a>
                                                         </div>
@@ -566,14 +469,14 @@
                                                     <!-- <time class="post-date" datetime="2016-10-10">17 Jun</time> -->
                                                 </div>
                                                 <div class="post-text-block bg-gray-light">
-                                                    <h4><a href="casestudy3.html">Silicon Valley Startup Tech Hiring</a>
+                                                    <h4><a href="casestudy3.php">Silicon Valley Startup Tech Hiring</a>
                                                     </h4>
 
                                                     <p class="show_more">One of the most innovative and funded startups in Silicon Valley struggled to find suitable candidates for their team. The startup worked with both local and offshore recruiting partners that were unable
                                                         to come up with ....</p>
                                                     <div class="post-meta clearfix">
                                                         <div class="post-link-holder">
-                                                            <a href="casestudy3.html">Read Case Study <span
+                                                            <a href="casestudy3.php">Read Case Study <span
                                                                     class="fa fa-arrow-right"><span
                                                                         class="sr-only">&nbsp;</span></span></a>
                                                         </div>
@@ -600,12 +503,12 @@
                                                     <!-- <time class="post-date" datetime="2016-10-10">17 Jun</time> -->
                                                 </div>
                                                 <div class="post-text-block bg-gray-light">
-                                                    <h4><a href="casestudy4.html">Mass Hiring and Training</a></h4>
+                                                    <h4><a href="casestudy4.php">Mass Hiring and Training</a></h4>
 
                                                     <p class="show_more">It is widely acknowledged that a company of Stakefield’s reputation and presence, needs to go through a number of permutations and combinations while staging a mass recruitment process for ... </p>
                                                     <div class="post-meta clearfix">
                                                         <div class="post-link-holder">
-                                                            <a href="casestudy4.html">Read Case Study <span
+                                                            <a href="casestudy4.php">Read Case Study <span
                                                                     class="fa fa-arrow-right"><span
                                                                         class="sr-only">&nbsp;</span></span></a>
                                                         </div>
@@ -1031,88 +934,9 @@
         <!-- footer of the pagse -->
 
 
-        <footer class="footer footer-v1">
-            <div class="content-block footer-main">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="footer-logo">
-                                <img style="width: 38%;" src="./img/logo/SF-logo-white.svg" alt="image-description">
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="footer-nav inline-nav text-md-center">
-                                <ul>
-                                    <li><a href="#">Home</li>
-                                    <li><a href="aboutus.html">About us</li>
-                                        <li><a href="ourservice.html">Our Services</li>
-                                            <li><a href="casestudy1.html">Case Studies</li>
-                                   <!-- <li><a href="ceomessage.html">CEO Message</li> -->
-                                     <!-- <li><a href="leadership.html">Leadership</li> -->
-                          
-                                    <li><a href="contact.html">Contact Us</li>
-                                
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-md-3 text-md-right">
-                            <ul class="social-network with-text">
-                                <li><a href="#"><span class="waituk-icon-facebook"></span></a></li>
-                                    <li><a href="#"><span class="waituk-icon-twitter"></span> </a></li>
-                                    <li><a href="#"><span class="waituk-icon-google-plus"></span> </a></li>
+  <?php include("./footer.php");?>
 
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="footer-bottom text-center">
-                <div class="container">
-                    <a href="#" style="font-size: 0.85714286em;">Privacy Policy</a>
-                    <a href="#" style="font-size: 0.85714286em;">Terms of Use</a>
-                </div>
-            </div> -->
-                <div class="footer-bottom text-center">
-                    <div class="container">
-                        <p>A brand of HashRoot</p>
-                    </div>
-                </div>
-
-        </footer>
-
-
-        <!-- <footer class="footer footer-v1">
-            <div class="content-block footer-main text-center">
-                
-                <div class="container">
-                 
-                    <ul class="social-network with-text">
-                        <li><a href="#" style="font-size: 1rem;">Home</li>
-                        <li><a href="aboutus.html" style="font-size: 1rem;">About Stakefield</li>
-                        <li><a href="ceomessage.html" style="font-size: 1rem;">CEO Message</li>
-                        <li><a href="leadership.html" style="font-size: 1rem;">Leadership</li>
-                        <li><a href="#" style="font-size: 1rem;">Global Approach</li>
-                        <li><a href="contact.html" style="font-size: 1rem;">Contact Us</li>
-                        <li><a href="#" style="font-size: 1rem;">Locations</li>
-                    </ul>
-                    <div class="divider-border-dark sm-border"><span class="sr-only">&nbsp;</span></div>
-                    <div class="footer-nav inline-nav">
-                        <ul>
-                            <li><a href="#" style="font-size: 0.85714286em;">Privacy Policy</a></li>
-                            <li><a href="#" style="font-size: 0.85714286em;">Terms of Use</a></li>
-                          
-                        </ul>
-                    </div>
-                    <div class="footer-nav mt-4">
-                        <ul>
-                            <li><a href="https://www.hashroot.com/" target="_blank">Stakefield is a brand of
-                                    HashRoot</a></li>
-                        </ul>
-                    </div>
-                </div>
-           
-        </footer> -->
-        <!--/footer of the page -->
+       
         </div>
         <!-- open/close -->
         <div class="search-form-wrapper overlay overlay-hugeinc">

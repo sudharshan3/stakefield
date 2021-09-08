@@ -37,68 +37,7 @@
     <div id="wrapper">
         <div class="page-wrapper">
             <!-- header of the page -->
-            <header class="fixed-top main-header header-white no-top-header" id="waituk-main-header">
-                <div id="nav-section">
-                    <div class="bottom-header container-fluid mega-menus" id="mega-menus">
-                        <nav class="navbar navbar-toggleable-md no-border-radius no-margin mega-menu-multiple navbar-hover"
-                            id="navbar-inner-container">
-                            <form action="mega-menu-5.html" id="top-search" class="no-margin top-search">
-                                <div class="form-group no-margin">
-                                    <input class="form-control no-border" id="search_term" name="search_term"
-                                        placeholder="Type &amp; Press Enter" type="text">
-                                </div>
-                            </form>
-                            <button type="button" class="navbar-toggler navbar-toggler-left" data-toggle="collapse"
-                                data-target="#mega-menu">
-                                <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <a class="navbar-brand mr-auto m-sm-auto" href="index.html"> <img src="icons/LOGO.png"
-                                    alt="roxine" style="width: 86px;object-fit: contain;">
-                            </a>
-                            <div class="collapse navbar-collapse flex-row-reverse" id="mega-menu">
-                                <ul class="nav navbar-nav">
-                                    <li>
-                                        <a href="index.html"> Home </a>
-                                    </li>
-                                    <li>
-                                        <a href="ourservice.html"> Our Services </a>
-                                    </li>
-                                    <li class="dropdown right-dropdown" data-animation="fadeIn">
-                                        <a class="dropdown-toggle" data-toggle="dropdown" href="index.html"
-                                            data-title="Home"> Case Studies </a>
-                                            <ul class="dropdown-menu no-border-radius">
-                                                <li><a href="casestudy1.html">Staffing Engineering Talent</a></li>
-                                                <li><a href="casestudy2.html"> Contract-Based Employment </a></li>
-                                                <li><a href="casestudy3.html"> Silicon Valley Startup</a></li>
-                                                <li><a href="casestudy4.html"> Mass Hiring and Training </a></li>
-                                            </ul>
-                                    </li>
-                                    <li class="dropdown right-dropdown" data-animation="fadeIn">
-                                        <a class="dropdown-toggle" data-toggle="dropdown" href="index.html"
-                                            data-title="Home"> About Company </a>
-                                        <ul class="dropdown-menu no-border-radius">
-                                            <li><a href="aboutus.html">About Stakefield</a></li>
-                                            <!-- <li><a href="blog-two-col.html"> CEO Message </a></li>
-                                            <li><a href="leadership.html"> Leadership</a></li> -->
-                                            <li><a href="contact.html"> Locations </a></li>
-                                            <!-- <li><a href="blog-right-sidebar.html"> Capabilities </a></li> -->
-                                            <li><a href="csr.html"> Corporate Social Responsibility
-                                                </a></li>
-                                            <li><a href="sustainablestrategy.html"> Sustainability Strategy</a></li>
-<li><a href="empowerment.html"> Empowerment of Employees
-</a></li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="contact.html"> Contact </a>
-                                    </li>
-
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-            </header>
+            <?php include("./header.php");?>
             <!--/main content wrapper -->
             <main class="no-banner">
                 <section class="visual">
@@ -273,54 +212,7 @@
 
 
             <!-- footer of the pagse -->
-            <footer class="footer footer-v1">
-                <div class="content-block footer-main">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-3">
-                                <div class="footer-logo">
-                                    <img style="width: 38%;" src="./img/logo/SF-logo-white.svg" alt="image-description">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="footer-nav inline-nav text-md-center">
-                                    <ul>
-                                        <li><a href="#">Home</li>
-                                        <li><a href="aboutus.html">About us</li>
-                                            <li><a href="ourservice.html">Our Services</li>
-                                                <li><a href="casestudy1.html">Case Studies</li>
-                                       <!-- <li><a href="ceomessage.html">CEO Message</li> -->
-                                         <!-- <li><a href="leadership.html">Leadership</li> -->
-                              
-                                        <li><a href="contact.html">Contact Us</li>
-                                    
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-3 text-md-right">
-                                <ul class="social-network with-text">
-                                    <li><a href="#"><span class="waituk-icon-facebook"></span></a></li>
-                                        <li><a href="#"><span class="waituk-icon-twitter"></span> </a></li>
-                                        <li><a href="#"><span class="waituk-icon-google-plus"></span> </a></li>
-    
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- <div class="footer-bottom text-center">
-                    <div class="container">
-                        <a href="#" style="font-size: 0.85714286em;">Privacy Policy</a>
-                        <a href="#" style="font-size: 0.85714286em;">Terms of Use</a>
-                    </div>
-                </div> -->
-                    <div class="footer-bottom text-center">
-                        <div class="container">
-                            <p>Stakefield is a brand of Hashroot</p>
-                        </div>
-                    </div>
-    
-            </footer>
+            <?php include("./footer.php");?>
             <!--/footer of the page -->
         </div>
         <!-- search form wrapper -->
