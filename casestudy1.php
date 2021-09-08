@@ -5,9 +5,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta name="robots" content="noindex">
+    <meta name="title" content="Staffing Engineering Talent in Time - Case Study | Stakefield">
+    <meta name="description" content="Take a look at the case study on how Stakefield used Recruitment Process Outsourcing (RPO)  solution to help a multinational IT company to meet its hiring needs. ">
+    <meta name="keywords" content="stakefield">
+    
     <link rel="icon" href="./img/logo/favicon/black.png" type="image/png" sizes="32x32">
-    <title>Staffing Engineering Talent Just in Time</title>
+    <title>Staffing Engineering Talent in Time - Case Study | Stakefield</title>
     <!-- Font Icons -->
     <link media="all" rel="stylesheet" href="css/fonts/icomoon/icomoon.css">
     <link media="all" rel="stylesheet" href="css/fonts/icomoon/icon_new.css">

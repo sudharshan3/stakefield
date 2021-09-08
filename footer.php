@@ -24,12 +24,12 @@
                         <h6 class="text-white">Company</h6>
                             <div class="footer-nav">
                                 <ul>
-                                    <li><a href="./aboutus.php">About Stakefield</a></li>
-                                    <li><a href="./csr.php">Corporate Social Responsibility</a></li>
-                                    <li><a href="./sustainablestrategy.php">Sustainability Strategy</a></li>
+                                    <li><a href="/about-us">About Stakefield</a></li>
+                                    <li><a href="/corporate-social-responsibility">Corporate Social Responsibility</a></li>
+                                    <li><a href="/sustainability-strategy">Sustainability Strategy</a></li>
                                     <li><a href="./empowerment.php">Empowerment of Employees</a></li>
-                                    <li><a href="./globalapproach.php">Global Approach</a></li>
-                                    <li><a href="./lifeatstakefield.php">Life at StakeField</a></li>
+                                    <li><a href="/global-approach.php">Global Approach</a></li>
+                                    <li><a href="/life-at-stakefield">Life at StakeField</a></li>
                              
                                 </ul>
                             </div>
@@ -38,10 +38,10 @@
                             <h6 class="text-white">Case Studies</h6>
                                 <div class="footer-nav">
                                     <ul>                                   
-                                        <li><a href="./casestudy1.php">Staffing Engineering Talent</a></li>
-                                        <li><a href="./casestudy2.php">Contract Based Employment</a></li>
-                                        <li><a href="./casestudy3.php">Silicon Valley Startup</a></li>
-                                        <li><a href="./casestudy4.php">Mass Hiring and Training</a></li>
+                                        <li><a href="/casestudy/staffing-engineering-talent"      >Staffing Engineering Talent</a></li>
+                                        <li><a href="/casestudy/contract-based-employment"        >Contract Based Employment</a></li>
+                                        <li><a href="/casestudy/silicon-valley-startup"           >Silicon Valley Startup</a></li>
+                                        <li><a href="/casestudy/mass-hiring"                      >Mass Hiring and Training</a></li>
                                  
                                     </ul>
                                 </div>
@@ -50,8 +50,8 @@
                                 <h6 class="text-white">Others</h6>
                                     <div class="footer-nav">
                                         <ul>
-                                            <li><a href="./ourservice.php">Our Services</a></li>
-                                            <li><a href="./contact.php">Contact US</a></li>
+                                            <li><a href="/staffing-services">Our Services</a></li>
+                                            <li><a href="/contact-us">Contact US</a></li>
                                             
                                      
                                         </ul>
@@ -137,7 +137,7 @@
                             <div class="footer-nav inline-nav text-md-center">
                                 <ul>
                                     <li><a href="#">Home</li>
-                                    <li><a href="aboutus.php">About us</li>
+                                    <li><a href="/about-us">About us</li>
                                         <li><a href="ourservice.php">Our Services</li>
                                             <li><a href="casestudy1.php">Case Studies</li>
                          

@@ -5,8 +5,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta name="robots" content="noindex">
-    <title>Our Services</title>
+    <meta name="title" content="Our Staffing Services - Permanent Staffing | Stakefield">
+    <meta name="description" content="Our specialized consultants provide the best and reliable staffing services that make the challenging task of recruiting the best candidate easier for you.">
+    <meta name="keywords" content="stakefield">
+    
+    <title>Our Staffing Services - Permanent Staffing | Stakefield</title>
     <link rel="icon" href="./img/logo/favicon/black.png" type="image/png" sizes="32x32">
     <!-- Font Icons -->
     <link media="all" rel="stylesheet" href="css/fonts/icomoon/icomoon.css">

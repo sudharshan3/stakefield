@@ -5,7 +5,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title> Stakefield </title>
+    <meta name="title" content="Staffing and Recruitment Services for Companies | Stakefield">
+    <meta name="description" content="Stakefield provides staffing and recruitment services to companies of all scales. We help you find the right talent for your organization. Visit to know more.">
+    <meta name="keywords" content="stakefield">
+ 
+    <title> Staffing and Recruitment Services for Companies | Stakefield </title>
     <link rel="icon" href="./img/logo/favicon/black.png" type="image/png" sizes="32x32">
     <!-- Font Icons -->
     <link media="all" rel="stylesheet" href="./css/fonts/icomoon/icomoon.css">
@@ -86,7 +90,7 @@
                                         data-height="none" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_hover="o:1;rX:0;rY:0;rZ:0;z:0;s:300;e:Power3.easeOut;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
                                         data-transform_out="y:[175%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_out="x:inherit;y:inherit;" data-start="1250" data-splitin="none" data-splitout="none" data-actions='[{"event":"click","action":"jumptoslide","slide":"rs-164","delay":""}]'
                                         data-responsive_offset="on" data-paddingtop="[0,0,0,0]" data-paddingright="[25,25,25,25]" data-paddingbottom="[25,25,25,25]" data-paddingleft="[25,25,25,25]">
-                                        <a class="btn btn-primary has-radius-small" href="contact.php">GET IN TOUCH</a>
+                                        <a class="btn btn-primary has-radius-small" href="/contact-us">GET IN TOUCH</a>
                                     </div>
                                 </li>
                             </ul>
@@ -118,7 +122,7 @@
                                             <div class="icon cardicon">
                                                 <img src="icons/Permanenet staffing and placement-01.png" alt="">
                                             </div>
-                                            <h5 class="content-title"><a href="ourservice.php">PERMANENT STAFFING &
+                                            <h5 class="content-title"><a href="/staffing-services">PERMANENT STAFFING &
                                                     PLACEMENT</a></h5>
                                             <div class="des">
                                                 <p>We help you find the right talent for your organization in the easiest and cost-effective way.</p>
@@ -135,7 +139,7 @@
                                             <div class="icon cardicon">
                                                 <img src="icons/Executive search and selection-01.png" alt="">
                                             </div>
-                                            <h5 class="content-title"><a href="ourservice.php">EXECUTIVE SEARCH & SELECTION</a></h5>
+                                            <h5 class="content-title"><a href="/staffing-services">EXECUTIVE SEARCH & SELECTION</a></h5>
                                             <div class="des">
                                                 <p>Our consultants will ensure you have access to the right
                                                     executive-level professionals you are looking for.</p>
@@ -153,7 +157,7 @@
                                             <div class="icon cardicon">
                                                 <img src="icons/Contract based staffing-01.png" alt="">
                                             </div>
-                                            <h5 class="content-title"><a href="ourservice.php">CONTRACT-BASED
+                                            <h5 class="content-title"><a href="/staffing-services">CONTRACT-BASED
                                                     STAFFING</a></h5>
                                             <div class="des">
                                                 <p>We ensure that the right people are deployed in the right positions at short notice.</p>
@@ -172,7 +176,7 @@
                                             <div class="icon cardicon">
                                                 <img src="icons/Assessment solutions-01.png" alt="">
                                             </div>
-                                            <h5 class="content-title"><a href="ourservice.php">ASSESSMENT SOLUTIONS</a>
+                                            <h5 class="content-title"><a href="/staffing-services">ASSESSMENT SOLUTIONS</a>
                                             </h5>
                                             <div class="des">
                                                 <p>Our specialized consultant helps you in identifying the employees who have the right skills and personalities.
@@ -191,7 +195,7 @@
                                             <div class="icon cardicon">
                                                 <img src="icons/Managed services-01.png" alt="">
                                             </div>
-                                            <h5 class="content-title"><a href="ourservice.php">MANAGED SERVICES</a>
+                                            <h5 class="content-title"><a href="/staffing-services">MANAGED SERVICES</a>
                                             </h5>
                                             <div class="des">
                                                 <p>With our managed service program you will get complete visibility over your non-permanent workforce.</p>
@@ -209,7 +213,7 @@
                                             <div class="icon cardicon">
                                                 <img src="icons/Background and identity verification services-01.png" alt="">
                                             </div>
-                                            <h5 class="content-title"><a href="ourservice.php">BACKGROUND & IDENTITY
+                                            <h5 class="content-title"><a href="/staffing-services">BACKGROUND & IDENTITY
                                                     VERIFICATION SERVICE</a></h5>
                                             <div class="des">
                                                 <p>We check for legal as well as government ID verification to ensure the candidates fit well within the client's organization.</p>
@@ -403,13 +407,13 @@
                                                     <!-- <time class="post-date" datetime="2016-10-10">17 Jun</time> -->
                                                 </div>
                                                 <div class="post-text-block bg-gray-light">
-                                                    <h4><a href="casestudy1.php">Staffing Engineering Talent</a></h4>
+                                                    <h4><a href="/casestudy/staffing-engineering-talent">Staffing Engineering Talent</a></h4>
 
                                                     <p class="show_more">No one enterprise can be everything to everyone, irrespective of its size or expertise at its disposal. It may certainly appear an easy task to hire individuals who would want to be employed at an esteemed...
                                                     </p>
                                                     <div class="post-meta clearfix">
                                                         <div class="post-link-holder">
-                                                            <a href="casestudy1.php">Read Case Study <span
+                                                            <a href="/casestudy/staffing-engineering-talent">Read Case Study <span
                                                                     class="fa fa-arrow-right"><span
                                                                         class="sr-only">&nbsp;</span></span></a>
                                                         </div>
@@ -436,13 +440,13 @@
                                                     <!-- <time class="post-date" datetime="2016-10-10">17 Jun</time> -->
                                                 </div>
                                                 <div class="post-text-block bg-gray-light">
-                                                    <h4><a href="casestudy2.php">Contract-Based Employment</a></h4>
+                                                    <h4><a href="/casestudy/contract-based-employment">Contract-Based Employment</a></h4>
 
                                                     <p class="show_more">The client, a multi-billion dollar telecom provider headquartered in Germany, was in search of a partner who could support their efforts to overhaul their IT systems of their data center through .....
                                                     </p>
                                                     <div class="post-meta clearfix">
                                                         <div class="post-link-holder">
-                                                            <a href="casestudy2.php">Read Case Study <span
+                                                            <a href="/casestudy/contract-based-employment">Read Case Study <span
                                                                     class="fa fa-arrow-right"><span
                                                                         class="sr-only">&nbsp;</span></span></a>
                                                         </div>
@@ -469,14 +473,14 @@
                                                     <!-- <time class="post-date" datetime="2016-10-10">17 Jun</time> -->
                                                 </div>
                                                 <div class="post-text-block bg-gray-light">
-                                                    <h4><a href="casestudy3.php">Silicon Valley Startup Tech Hiring</a>
+                                                    <h4><a href="/casestudy/silicon-valley-startup">Silicon Valley Startup Tech Hiring</a>
                                                     </h4>
 
                                                     <p class="show_more">One of the most innovative and funded startups in Silicon Valley struggled to find suitable candidates for their team. The startup worked with both local and offshore recruiting partners that were unable
                                                         to come up with ....</p>
                                                     <div class="post-meta clearfix">
                                                         <div class="post-link-holder">
-                                                            <a href="casestudy3.php">Read Case Study <span
+                                                            <a href="/casestudy/silicon-valley-startup">Read Case Study <span
                                                                     class="fa fa-arrow-right"><span
                                                                         class="sr-only">&nbsp;</span></span></a>
                                                         </div>
@@ -503,12 +507,12 @@
                                                     <!-- <time class="post-date" datetime="2016-10-10">17 Jun</time> -->
                                                 </div>
                                                 <div class="post-text-block bg-gray-light">
-                                                    <h4><a href="casestudy4.php">Mass Hiring and Training</a></h4>
+                                                    <h4><a href="/casestudy/mass-hiring">Mass Hiring and Training</a></h4>
 
                                                     <p class="show_more">It is widely acknowledged that a company of Stakefield’s reputation and presence, needs to go through a number of permutations and combinations while staging a mass recruitment process for ... </p>
                                                     <div class="post-meta clearfix">
                                                         <div class="post-link-holder">
-                                                            <a href="casestudy4.php">Read Case Study <span
+                                                            <a href="/casestudy/mass-hiring">Read Case Study <span
                                                                     class="fa fa-arrow-right"><span
                                                                         class="sr-only">&nbsp;</span></span></a>
                                                         </div>

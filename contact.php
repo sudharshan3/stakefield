@@ -5,8 +5,11 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta name="robots" content="noindex">
-    <title>Contact Us</title>
+    <meta name="title" content="Contact Us - Staffing Talent for Organizations | Stakefield">
+    <meta name="description" content="Get in touch with Stakefield to find talents that meet your business objectives. Submit a form or reach out to us and connect with our hiring experts.">
+    <meta name="keywords" content="stakefield">
+    
+    <title>Contact Us - Staffing Talent for Organizations | Stakefield</title>
     <link rel="icon" href="./img/logo/favicon/black.png" type="image/png" sizes="32x32">
     <!-- Font Icons -->
     <link media="all" rel="stylesheet" href="css/fonts/icomoon/icomoon.css">

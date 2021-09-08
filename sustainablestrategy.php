@@ -5,9 +5,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta name="robots" content="noindex">
+    <meta name="title" content="Sustainability Strategy For Long Term Run | Stakefield">
+    <meta name="description" content="Stakefield works with a sustainability strategy & aims to be an organization that targets to meet present generation requirements without compromising on the future.">
+    <meta name="keywords" content="stakefield">
+    
     <link rel="icon" href="./img/logo/favicon/black.png" type="image/png" sizes="32x32">
-    <title>Sustainability Strategy </title>
+    <title>Sustainability Strategy For Long Term Run | Stakefield</title>
     <!-- Font Icons -->
     <link media="all" rel="stylesheet" href="css/fonts/icomoon/icomoon.css">
     <link media="all" rel="stylesheet" href="css/fonts/icomoon/icon_new.css">
